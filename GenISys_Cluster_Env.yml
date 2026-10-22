@@ -1,0 +1,26 @@
+# Linux cluster environment for the GenISys V1.1 dataset pipeline.
+#
+# This intentionally lists only direct runtime dependencies.  It avoids the
+# macOS/ARM-specific transitive packages captured in GenISys_Env.yml and lets
+# the Linux solver select compatible low-level libraries for the cluster.
+#
+# The environment name matches the activation command in the SLURM launchers:
+#     source activate GenISys
+
+name: GenISys
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.12
+  - numpy=2.2
+  - pandas=2.2
+  - scipy=1.15
+  - matplotlib-base=3.10
+
+  # Install CadQuery through conda-forge so the solver selects the matching
+  # native Linux OCP/OpenCASCADE build.  The PyPI OCP wheels require a newer
+  # host glibc than is available on some HPC cluster login/compute nodes.
+  - cadquery=2.8.0
+  - numpy-stl=3.2.0

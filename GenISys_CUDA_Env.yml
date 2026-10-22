@@ -1,0 +1,29 @@
+# Linux x86-64 environment for one RTX-4090 diffusion experiment process and
+# the GenISys exact evaluator. This is intentionally a direct-dependency spec,
+# not a platform-specific export of the macOS development environment.
+
+name: GenISys_Env
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.12
+  - numpy=2.2
+  - pandas=2.2
+  - scipy=1.15
+  - scikit-learn=1.6
+  - matplotlib-base=3.10
+  - tqdm
+  - pip
+
+  # Required when generated samples are passed to the exact GenISys evaluator.
+  - cadquery=2.8.0
+  - numpy-stl=3.2.0
+
+  # PyTorch stopped publishing official Conda binaries with release 2.6.
+  # Install the official CUDA 12.4 wheel so Conda cannot silently select the
+  # conda-forge CPU-only build when resolving CadQuery's dependencies.
+  - pip:
+      - --index-url https://download.pytorch.org/whl/cu124
+      - torch==2.6.0
