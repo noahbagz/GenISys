@@ -1,0 +1,3217 @@
+{
+  "audited_at_utc": "2026-10-22T16:11:35.686472+00:00",
+  "specification": "/Users/noahbagazinski/Documents/MIT/Research/GenISys/GenISys_Env.yml",
+  "environment": {
+    "executable": "/opt/anaconda3/envs/GenISys_Env/bin/python",
+    "prefix": "/opt/anaconda3/envs/GenISys_Env",
+    "python": "3.12.10",
+    "platform": "macOS-26.6.2-arm64-arm-64bit"
+  },
+  "summary": {
+    "conda": {
+      "match": 491
+    },
+    "pip": {
+      "match": 37
+    },
+    "additional_conda_packages": 1,
+    "conda_metadata_disagreements": 1,
+    "pip_check_exit_code": 1
+  },
+  "conda_comparison": [
+    {
+      "name": "_python_abi3_support",
+      "required": "1.0",
+      "installed": "1.0",
+      "status": "match"
+    },
+    {
+      "name": "absl-py",
+      "required": "2.2.0",
+      "installed": "2.2.0",
+      "status": "match"
+    },
+    {
+      "name": "accelerate",
+      "required": "1.7.0",
+      "installed": "1.7.0",
+      "status": "match"
+    },
+    {
+      "name": "adagio",
+      "required": "0.2.6",
+      "installed": "0.2.6",
+      "status": "match"
+    },
+    {
+      "name": "adwaita-icon-theme",
+      "required": "48.0",
+      "installed": "48.0",
+      "status": "match"
+    },
+    {
+      "name": "aiofiles",
+      "required": "24.1.0",
+      "installed": "24.1.0",
+      "status": "match"
+    },
+    {
+      "name": "aiohappyeyeballs",
+      "required": "2.6.1",
+      "installed": "2.6.1",
+      "status": "match"
+    },
+    {
+      "name": "aiohttp",
+      "required": "3.11.18",
+      "installed": "3.11.18",
+      "status": "match"
+    },
+    {
+      "name": "aiohttp-cors",
+      "required": "0.7.0",
+      "installed": "0.7.0",
+      "status": "match"
+    },
+    {
+      "name": "aiosignal",
+      "required": "1.3.2",
+      "installed": "1.3.2",
+      "status": "match"
+    },
+    {
+      "name": "alembic",
+      "required": "1.15.2",
+      "installed": "1.15.2",
+      "status": "match"
+    },
+    {
+      "name": "altair",
+      "required": "5.5.0",
+      "installed": "5.5.0",
+      "status": "match"
+    },
+    {
+      "name": "annotated-types",
+      "required": "0.7.0",
+      "installed": "0.7.0",
+      "status": "match"
+    },
+    {
+      "name": "antlr-python-runtime",
+      "required": "4.9.3",
+      "installed": "4.9.3",
+      "status": "match"
+    },
+    {
+      "name": "anyio",
+      "required": "4.9.0",
+      "installed": "4.9.0",
+      "status": "match"
+    },
+    {
+      "name": "aom",
+      "required": "3.9.1",
+      "installed": "3.9.1",
+      "status": "match"
+    },
+    {
+      "name": "appdirs",
+      "required": "1.4.4",
+      "installed": "1.4.4",
+      "status": "match"
+    },
+    {
+      "name": "appnope",
+      "required": "0.1.4",
+      "installed": "0.1.4",
+      "status": "match"
+    },
+    {
+      "name": "arrow",
+      "required": "1.3.0",
+      "installed": "1.3.0",
+      "status": "match"
+    },
+    {
+      "name": "asttokens",
+      "required": "3.0.1",
+      "installed": "3.0.1",
+      "status": "match"
+    },
+    {
+      "name": "atk-1.0",
+      "required": "2.38.0",
+      "installed": "2.38.0",
+      "status": "match"
+    },
+    {
+      "name": "attrs",
+      "required": "25.3.0",
+      "installed": "25.3.0",
+      "status": "match"
+    },
+    {
+      "name": "autogluon",
+      "required": "1.3.0",
+      "installed": "1.3.0",
+      "status": "match"
+    },
+    {
+      "name": "autogluon.common",
+      "required": "1.3.0",
+      "installed": "1.3.0",
+      "status": "match"
+    },
+    {
+      "name": "autogluon.core",
+      "required": "1.3.0",
+      "installed": "1.3.0",
+      "status": "match"
+    },
+    {
+      "name": "autogluon.features",
+      "required": "1.3.0",
+      "installed": "1.3.0",
+      "status": "match"
+    },
+    {
+      "name": "autogluon.multimodal",
+      "required": "1.3.0",
+      "installed": "1.3.0",
+      "status": "match"
+    },
+    {
+      "name": "autogluon.tabular",
+      "required": "1.3.0",
+      "installed": "1.3.0",
+      "status": "match"
+    },
+    {
+      "name": "autogluon.timeseries",
+      "required": "1.3.0",
+      "installed": "1.3.0",
+      "status": "match"
+    },
+    {
+      "name": "aws-c-auth",
+      "required": "0.9.0",
+      "installed": "0.9.0",
+      "status": "match"
+    },
+    {
+      "name": "aws-c-cal",
+      "required": "0.9.0",
+      "installed": "0.9.0",
+      "status": "match"
+    },
+    {
+      "name": "aws-c-common",
+      "required": "0.12.3",
+      "installed": "0.12.3",
+      "status": "match"
+    },
+    {
+      "name": "aws-c-compression",
+      "required": "0.3.1",
+      "installed": "0.3.1",
+      "status": "match"
+    },
+    {
+      "name": "aws-c-event-stream",
+      "required": "0.5.4",
+      "installed": "0.5.4",
+      "status": "match"
+    },
+    {
+      "name": "aws-c-http",
+      "required": "0.10.1",
+      "installed": "0.10.1",
+      "status": "match"
+    },
+    {
+      "name": "aws-c-io",
+      "required": "0.19.0",
+      "installed": "0.19.0",
+      "status": "match"
+    },
+    {
+      "name": "aws-c-mqtt",
+      "required": "0.13.0",
+      "installed": "0.13.0",
+      "status": "match"
+    },
+    {
+      "name": "aws-c-s3",
+      "required": "0.7.17",
+      "installed": "0.7.17",
+      "status": "match"
+    },
+    {
+      "name": "aws-c-sdkutils",
+      "required": "0.2.3",
+      "installed": "0.2.3",
+      "status": "match"
+    },
+    {
+      "name": "aws-checksums",
+      "required": "0.2.7",
+      "installed": "0.2.7",
+      "status": "match"
+    },
+    {
+      "name": "aws-crt-cpp",
+      "required": "0.32.5",
+      "installed": "0.32.5",
+      "status": "match"
+    },
+    {
+      "name": "aws-sdk-cpp",
+      "required": "1.11.510",
+      "installed": "1.11.510",
+      "status": "match"
+    },
+    {
+      "name": "azure-core-cpp",
+      "required": "1.14.0",
+      "installed": "1.14.0",
+      "status": "match"
+    },
+    {
+      "name": "azure-identity-cpp",
+      "required": "1.10.0",
+      "installed": "1.10.0",
+      "status": "match"
+    },
+    {
+      "name": "azure-storage-blobs-cpp",
+      "required": "12.13.0",
+      "installed": "12.13.0",
+      "status": "match"
+    },
+    {
+      "name": "azure-storage-common-cpp",
+      "required": "12.8.0",
+      "installed": "12.8.0",
+      "status": "match"
+    },
+    {
+      "name": "azure-storage-files-datalake-cpp",
+      "required": "12.12.0",
+      "installed": "12.12.0",
+      "status": "match"
+    },
+    {
+      "name": "beautifulsoup4",
+      "required": "4.13.4",
+      "installed": "4.13.4",
+      "status": "match"
+    },
+    {
+      "name": "binaryornot",
+      "required": "0.4.4",
+      "installed": "0.4.4",
+      "status": "match"
+    },
+    {
+      "name": "blosc",
+      "required": "1.21.6",
+      "installed": "1.21.6",
+      "status": "match"
+    },
+    {
+      "name": "boto3",
+      "required": "1.38.17",
+      "installed": "1.38.17",
+      "status": "match"
+    },
+    {
+      "name": "botocore",
+      "required": "1.38.18",
+      "installed": "1.38.18",
+      "status": "match"
+    },
+    {
+      "name": "brotli",
+      "required": "1.1.0",
+      "installed": "1.1.0",
+      "status": "match"
+    },
+    {
+      "name": "brotli-bin",
+      "required": "1.1.0",
+      "installed": "1.1.0",
+      "status": "match"
+    },
+    {
+      "name": "brotli-python",
+      "required": "1.1.0",
+      "installed": "1.1.0",
+      "status": "match"
+    },
+    {
+      "name": "brunsli",
+      "required": "0.1",
+      "installed": "0.1",
+      "status": "match"
+    },
+    {
+      "name": "bzip2",
+      "required": "1.0.8",
+      "installed": "1.0.8",
+      "status": "match"
+    },
+    {
+      "name": "c-ares",
+      "required": "1.34.5",
+      "installed": "1.34.5",
+      "status": "match"
+    },
+    {
+      "name": "c-blosc2",
+      "required": "2.17.1",
+      "installed": "2.17.1",
+      "status": "match"
+    },
+    {
+      "name": "ca-certificates",
+      "required": "2026.2.25",
+      "installed": "2026.2.25",
+      "status": "match"
+    },
+    {
+      "name": "cachetools",
+      "required": "5.5.2",
+      "installed": "5.5.2",
+      "status": "match"
+    },
+    {
+      "name": "cairo",
+      "required": "1.18.4",
+      "installed": "1.18.4",
+      "status": "match"
+    },
+    {
+      "name": "catalogue",
+      "required": "2.0.10",
+      "installed": "2.0.10",
+      "status": "match"
+    },
+    {
+      "name": "catboost",
+      "required": "1.2.7",
+      "installed": "1.2.7",
+      "status": "match"
+    },
+    {
+      "name": "certifi",
+      "required": "2026.2.25",
+      "installed": "2026.2.25",
+      "status": "match"
+    },
+    {
+      "name": "cffi",
+      "required": "1.17.1",
+      "installed": "1.17.1",
+      "status": "match"
+    },
+    {
+      "name": "chardet",
+      "required": "5.2.0",
+      "installed": "5.2.0",
+      "status": "match"
+    },
+    {
+      "name": "charls",
+      "required": "2.4.2",
+      "installed": "2.4.2",
+      "status": "match"
+    },
+    {
+      "name": "charset-normalizer",
+      "required": "3.4.2",
+      "installed": "3.4.2",
+      "status": "match"
+    },
+    {
+      "name": "click",
+      "required": "8.1.8",
+      "installed": "8.1.8",
+      "status": "match"
+    },
+    {
+      "name": "cloudpathlib",
+      "required": "0.21.1",
+      "installed": "0.21.1",
+      "status": "match"
+    },
+    {
+      "name": "cloudpickle",
+      "required": "3.1.1",
+      "installed": "3.1.1",
+      "status": "match"
+    },
+    {
+      "name": "colorama",
+      "required": "0.4.6",
+      "installed": "0.4.6",
+      "status": "match"
+    },
+    {
+      "name": "colorful",
+      "required": "0.5.6",
+      "installed": "0.5.6",
+      "status": "match"
+    },
+    {
+      "name": "colorlog",
+      "required": "6.9.0",
+      "installed": "6.9.0",
+      "status": "match"
+    },
+    {
+      "name": "comm",
+      "required": "0.2.3",
+      "installed": "0.2.3",
+      "status": "match"
+    },
+    {
+      "name": "confection",
+      "required": "0.1.5",
+      "installed": "0.1.5",
+      "status": "match"
+    },
+    {
+      "name": "contourpy",
+      "required": "1.3.2",
+      "installed": "1.3.2",
+      "status": "match"
+    },
+    {
+      "name": "cookiecutter",
+      "required": "2.6.0",
+      "installed": "2.6.0",
+      "status": "match"
+    },
+    {
+      "name": "coreforecast",
+      "required": "0.0.16",
+      "installed": "0.0.16",
+      "status": "match"
+    },
+    {
+      "name": "cpython",
+      "required": "3.12.14",
+      "installed": "3.12.14",
+      "status": "match"
+    },
+    {
+      "name": "cryptography",
+      "required": "44.0.3",
+      "installed": "44.0.3",
+      "status": "match"
+    },
+    {
+      "name": "cycler",
+      "required": "0.12.1",
+      "installed": "0.12.1",
+      "status": "match"
+    },
+    {
+      "name": "cymem",
+      "required": "2.0.11",
+      "installed": "2.0.11",
+      "status": "match"
+    },
+    {
+      "name": "cython-blis",
+      "required": "1.0.1",
+      "installed": "1.0.1",
+      "status": "match"
+    },
+    {
+      "name": "datasets",
+      "required": "3.6.0",
+      "installed": "3.6.0",
+      "status": "match"
+    },
+    {
+      "name": "dav1d",
+      "required": "1.2.1",
+      "installed": "1.2.1",
+      "status": "match"
+    },
+    {
+      "name": "dbus",
+      "required": "1.13.6",
+      "installed": "1.13.6",
+      "status": "match"
+    },
+    {
+      "name": "debugpy",
+      "required": "1.8.20",
+      "installed": "1.8.20",
+      "status": "match"
+    },
+    {
+      "name": "decorator",
+      "required": "5.2.1",
+      "installed": "5.2.1",
+      "status": "match"
+    },
+    {
+      "name": "defusedxml",
+      "required": "0.7.1",
+      "installed": "0.7.1",
+      "status": "match"
+    },
+    {
+      "name": "dill",
+      "required": "0.3.8",
+      "installed": "0.3.8",
+      "status": "match"
+    },
+    {
+      "name": "distlib",
+      "required": "0.3.9",
+      "installed": "0.3.9",
+      "status": "match"
+    },
+    {
+      "name": "dnspython",
+      "required": "2.7.0",
+      "installed": "2.7.0",
+      "status": "match"
+    },
+    {
+      "name": "email-validator",
+      "required": "2.2.0",
+      "installed": "2.2.0",
+      "status": "match"
+    },
+    {
+      "name": "email_validator",
+      "required": "2.2.0",
+      "installed": "2.2.0",
+      "status": "match"
+    },
+    {
+      "name": "epoxy",
+      "required": "1.5.10",
+      "installed": "1.5.10",
+      "status": "match"
+    },
+    {
+      "name": "evaluate",
+      "required": "0.4.3",
+      "installed": "0.4.3",
+      "status": "match"
+    },
+    {
+      "name": "exceptiongroup",
+      "required": "1.3.0",
+      "installed": "1.3.0",
+      "status": "match"
+    },
+    {
+      "name": "executing",
+      "required": "2.2.1",
+      "installed": "2.2.1",
+      "status": "match"
+    },
+    {
+      "name": "expat",
+      "required": "2.7.0",
+      "installed": "2.7.0",
+      "status": "match"
+    },
+    {
+      "name": "fastai",
+      "required": "2.7.19",
+      "installed": "2.7.19",
+      "status": "match"
+    },
+    {
+      "name": "fastapi",
+      "required": "0.115.12",
+      "installed": "0.115.12",
+      "status": "match"
+    },
+    {
+      "name": "fastapi-cli",
+      "required": "0.0.7",
+      "installed": "0.0.7",
+      "status": "match"
+    },
+    {
+      "name": "fastcore",
+      "required": "1.7.20",
+      "installed": "1.7.20",
+      "status": "match"
+    },
+    {
+      "name": "fastdownload",
+      "required": "0.0.7",
+      "installed": "0.0.7",
+      "status": "match"
+    },
+    {
+      "name": "fastprogress",
+      "required": "1.0.3",
+      "installed": "1.0.3",
+      "status": "match"
+    },
+    {
+      "name": "ffmpeg",
+      "required": "7.1.1",
+      "installed": "7.1.1",
+      "status": "match"
+    },
+    {
+      "name": "ffmpy",
+      "required": "0.3.0",
+      "installed": "0.3.0",
+      "status": "match"
+    },
+    {
+      "name": "filelock",
+      "required": "3.18.0",
+      "installed": "3.18.0",
+      "status": "match"
+    },
+    {
+      "name": "font-ttf-dejavu-sans-mono",
+      "required": "2.37",
+      "installed": "2.37",
+      "status": "match"
+    },
+    {
+      "name": "font-ttf-inconsolata",
+      "required": "3.000",
+      "installed": "3.000",
+      "status": "match"
+    },
+    {
+      "name": "font-ttf-source-code-pro",
+      "required": "2.038",
+      "installed": "2.038",
+      "status": "match"
+    },
+    {
+      "name": "font-ttf-ubuntu",
+      "required": "0.83",
+      "installed": "0.83",
+      "status": "match"
+    },
+    {
+      "name": "fontconfig",
+      "required": "2.15.0",
+      "installed": "2.15.0",
+      "status": "match"
+    },
+    {
+      "name": "fonts-conda-ecosystem",
+      "required": "1",
+      "installed": "1",
+      "status": "match"
+    },
+    {
+      "name": "fonts-conda-forge",
+      "required": "1",
+      "installed": "1",
+      "status": "match"
+    },
+    {
+      "name": "fonttools",
+      "required": "4.58.0",
+      "installed": "4.58.0",
+      "status": "match"
+    },
+    {
+      "name": "freetype",
+      "required": "2.13.3",
+      "installed": "2.13.3",
+      "status": "match"
+    },
+    {
+      "name": "fribidi",
+      "required": "1.0.10",
+      "installed": "1.0.10",
+      "status": "match"
+    },
+    {
+      "name": "frozenlist",
+      "required": "1.6.0",
+      "installed": "1.6.0",
+      "status": "match"
+    },
+    {
+      "name": "fs",
+      "required": "2.4.16",
+      "installed": "2.4.16",
+      "status": "match"
+    },
+    {
+      "name": "fsspec",
+      "required": "2025.3.0",
+      "installed": "2025.3.0",
+      "status": "match"
+    },
+    {
+      "name": "fugue",
+      "required": "0.9.1",
+      "installed": "0.9.1",
+      "status": "match"
+    },
+    {
+      "name": "future",
+      "required": "1.0.0",
+      "installed": "1.0.0",
+      "status": "match"
+    },
+    {
+      "name": "gdk-pixbuf",
+      "required": "2.42.12",
+      "installed": "2.42.12",
+      "status": "match"
+    },
+    {
+      "name": "gdown",
+      "required": "5.2.0",
+      "installed": "5.2.0",
+      "status": "match"
+    },
+    {
+      "name": "gflags",
+      "required": "2.2.2",
+      "installed": "2.2.2",
+      "status": "match"
+    },
+    {
+      "name": "giflib",
+      "required": "5.2.2",
+      "installed": "5.2.2",
+      "status": "match"
+    },
+    {
+      "name": "glib-tools",
+      "required": "2.84.1",
+      "installed": "2.84.1",
+      "status": "match"
+    },
+    {
+      "name": "glog",
+      "required": "0.7.1",
+      "installed": "0.7.1",
+      "status": "match"
+    },
+    {
+      "name": "gluonts",
+      "required": "0.16.1",
+      "installed": "0.16.1",
+      "status": "match"
+    },
+    {
+      "name": "gmp",
+      "required": "6.3.0",
+      "installed": "6.3.0",
+      "status": "match"
+    },
+    {
+      "name": "gmpy2",
+      "required": "2.3.1",
+      "installed": "2.3.1",
+      "status": "match"
+    },
+    {
+      "name": "google-api-core",
+      "required": "2.24.2",
+      "installed": "2.24.2",
+      "status": "match"
+    },
+    {
+      "name": "google-auth",
+      "required": "2.40.1",
+      "installed": "2.40.1",
+      "status": "match"
+    },
+    {
+      "name": "googleapis-common-protos",
+      "required": "1.70.0",
+      "installed": "1.70.0",
+      "status": "match"
+    },
+    {
+      "name": "gradio",
+      "required": "3.24.1",
+      "installed": "3.24.1",
+      "status": "match"
+    },
+    {
+      "name": "gradio-client",
+      "required": "1.10.1",
+      "installed": "1.10.1",
+      "status": "match"
+    },
+    {
+      "name": "graphite2",
+      "required": "1.3.13",
+      "installed": "1.3.13",
+      "status": "match"
+    },
+    {
+      "name": "graphviz",
+      "required": "12.2.1",
+      "installed": "12.2.1",
+      "status": "match"
+    },
+    {
+      "name": "greenlet",
+      "required": "3.2.2",
+      "installed": "3.2.2",
+      "status": "match"
+    },
+    {
+      "name": "grpcio",
+      "required": "1.71.0",
+      "installed": "1.71.0",
+      "status": "match"
+    },
+    {
+      "name": "gtk3",
+      "required": "3.24.43",
+      "installed": "3.24.43",
+      "status": "match"
+    },
+    {
+      "name": "gts",
+      "required": "0.7.6",
+      "installed": "0.7.6",
+      "status": "match"
+    },
+    {
+      "name": "h11",
+      "required": "0.16.0",
+      "installed": "0.16.0",
+      "status": "match"
+    },
+    {
+      "name": "h2",
+      "required": "4.2.0",
+      "installed": "4.2.0",
+      "status": "match"
+    },
+    {
+      "name": "harfbuzz",
+      "required": "11.2.1",
+      "installed": "11.2.1",
+      "status": "match"
+    },
+    {
+      "name": "hicolor-icon-theme",
+      "required": "0.17",
+      "installed": "0.17",
+      "status": "match"
+    },
+    {
+      "name": "hpack",
+      "required": "4.1.0",
+      "installed": "4.1.0",
+      "status": "match"
+    },
+    {
+      "name": "httpcore",
+      "required": "1.0.9",
+      "installed": "1.0.9",
+      "status": "match"
+    },
+    {
+      "name": "httptools",
+      "required": "0.6.4",
+      "installed": "0.6.4",
+      "status": "match"
+    },
+    {
+      "name": "httpx",
+      "required": "0.28.1",
+      "installed": "0.28.1",
+      "status": "match"
+    },
+    {
+      "name": "huggingface_hub",
+      "required": "0.31.2",
+      "installed": "0.31.2",
+      "status": "match"
+    },
+    {
+      "name": "hyperframe",
+      "required": "6.1.0",
+      "installed": "6.1.0",
+      "status": "match"
+    },
+    {
+      "name": "hyperopt",
+      "required": "0.2.7",
+      "installed": "0.2.7",
+      "status": "match"
+    },
+    {
+      "name": "icu",
+      "required": "75.1",
+      "installed": "75.1",
+      "status": "match"
+    },
+    {
+      "name": "idna",
+      "required": "3.10",
+      "installed": "3.10",
+      "status": "match"
+    },
+    {
+      "name": "imagecodecs",
+      "required": "2024.12.30",
+      "installed": "2024.12.30",
+      "status": "match"
+    },
+    {
+      "name": "imageio",
+      "required": "2.37.0",
+      "installed": "2.37.0",
+      "status": "match"
+    },
+    {
+      "name": "importlib-metadata",
+      "required": "8.6.1",
+      "installed": "8.6.1",
+      "status": "match"
+    },
+    {
+      "name": "importlib_resources",
+      "required": "6.5.2",
+      "installed": "6.5.2",
+      "status": "match"
+    },
+    {
+      "name": "ipykernel",
+      "required": "7.2.0",
+      "installed": "7.2.0",
+      "status": "match"
+    },
+    {
+      "name": "ipython",
+      "required": "9.10.0",
+      "installed": "9.10.0",
+      "status": "match"
+    },
+    {
+      "name": "ipython_pygments_lexers",
+      "required": "1.1.1",
+      "installed": "1.1.1",
+      "status": "match"
+    },
+    {
+      "name": "jedi",
+      "required": "0.19.2",
+      "installed": "0.19.2",
+      "status": "match"
+    },
+    {
+      "name": "jinja2",
+      "required": "3.1.6",
+      "installed": "3.1.6",
+      "status": "match"
+    },
+    {
+      "name": "jmespath",
+      "required": "1.0.1",
+      "installed": "1.0.1",
+      "status": "match"
+    },
+    {
+      "name": "joblib",
+      "required": "1.5.0",
+      "installed": "1.5.0",
+      "status": "match"
+    },
+    {
+      "name": "jsonschema",
+      "required": "4.23.0",
+      "installed": "4.23.0",
+      "status": "match"
+    },
+    {
+      "name": "jsonschema-specifications",
+      "required": "2025.4.1",
+      "installed": "2025.4.1",
+      "status": "match"
+    },
+    {
+      "name": "jupyter_client",
+      "required": "8.8.0",
+      "installed": "8.8.0",
+      "status": "match"
+    },
+    {
+      "name": "jupyter_core",
+      "required": "5.9.1",
+      "installed": "5.9.1",
+      "status": "match"
+    },
+    {
+      "name": "jxrlib",
+      "required": "1.1",
+      "installed": "1.1",
+      "status": "match"
+    },
+    {
+      "name": "khronos-opencl-icd-loader",
+      "required": "2024.10.24",
+      "installed": "2024.10.24",
+      "status": "match"
+    },
+    {
+      "name": "kiwisolver",
+      "required": "1.4.8",
+      "installed": "1.4.8",
+      "status": "match"
+    },
+    {
+      "name": "krb5",
+      "required": "1.21.3",
+      "installed": "1.21.3",
+      "status": "match"
+    },
+    {
+      "name": "lame",
+      "required": "3.100",
+      "installed": "3.100",
+      "status": "match"
+    },
+    {
+      "name": "langcodes",
+      "required": "3.3.0",
+      "installed": "3.3.0",
+      "status": "match"
+    },
+    {
+      "name": "lazy-loader",
+      "required": "0.4",
+      "installed": "0.4",
+      "status": "match"
+    },
+    {
+      "name": "lazy_loader",
+      "required": "0.4",
+      "installed": "0.4",
+      "status": "match"
+    },
+    {
+      "name": "lcms2",
+      "required": "2.17",
+      "installed": "2.17",
+      "status": "match"
+    },
+    {
+      "name": "lerc",
+      "required": "4.0.0",
+      "installed": "4.0.0",
+      "status": "match"
+    },
+    {
+      "name": "libabseil",
+      "required": "20250127.1",
+      "installed": "20250127.1",
+      "status": "match"
+    },
+    {
+      "name": "libaec",
+      "required": "1.1.3",
+      "installed": "1.1.3",
+      "status": "match"
+    },
+    {
+      "name": "libarrow",
+      "required": "20.0.0",
+      "installed": "20.0.0",
+      "status": "match"
+    },
+    {
+      "name": "libarrow-acero",
+      "required": "20.0.0",
+      "installed": "20.0.0",
+      "status": "match"
+    },
+    {
+      "name": "libarrow-dataset",
+      "required": "20.0.0",
+      "installed": "20.0.0",
+      "status": "match"
+    },
+    {
+      "name": "libarrow-substrait",
+      "required": "20.0.0",
+      "installed": "20.0.0",
+      "status": "match"
+    },
+    {
+      "name": "libass",
+      "required": "0.17.3",
+      "installed": "0.17.3",
+      "status": "match"
+    },
+    {
+      "name": "libavif16",
+      "required": "1.3.0",
+      "installed": "1.3.0",
+      "status": "match"
+    },
+    {
+      "name": "libblas",
+      "required": "3.9.0",
+      "installed": "3.9.0",
+      "status": "match"
+    },
+    {
+      "name": "libboost",
+      "required": "1.86.0",
+      "installed": "1.86.0",
+      "status": "match"
+    },
+    {
+      "name": "libbrotlicommon",
+      "required": "1.1.0",
+      "installed": "1.1.0",
+      "status": "match"
+    },
+    {
+      "name": "libbrotlidec",
+      "required": "1.1.0",
+      "installed": "1.1.0",
+      "status": "match"
+    },
+    {
+      "name": "libbrotlienc",
+      "required": "1.1.0",
+      "installed": "1.1.0",
+      "status": "match"
+    },
+    {
+      "name": "libcblas",
+      "required": "3.9.0",
+      "installed": "3.9.0",
+      "status": "match"
+    },
+    {
+      "name": "libcrc32c",
+      "required": "1.1.2",
+      "installed": "1.1.2",
+      "status": "match"
+    },
+    {
+      "name": "libcurl",
+      "required": "8.13.0",
+      "installed": "8.13.0",
+      "status": "match"
+    },
+    {
+      "name": "libcxx",
+      "required": "20.1.5",
+      "installed": "20.1.5",
+      "status": "match"
+    },
+    {
+      "name": "libde265",
+      "required": "1.0.15",
+      "installed": "1.0.15",
+      "status": "match"
+    },
+    {
+      "name": "libdeflate",
+      "required": "1.24",
+      "installed": "1.24",
+      "status": "match"
+    },
+    {
+      "name": "libedit",
+      "required": "3.1.20250104",
+      "installed": "3.1.20250104",
+      "status": "match"
+    },
+    {
+      "name": "libev",
+      "required": "4.33",
+      "installed": "4.33",
+      "status": "match"
+    },
+    {
+      "name": "libevent",
+      "required": "2.1.12",
+      "installed": "2.1.12",
+      "status": "match"
+    },
+    {
+      "name": "libexpat",
+      "required": "2.7.0",
+      "installed": "2.7.0",
+      "status": "match"
+    },
+    {
+      "name": "libffi",
+      "required": "3.4.6",
+      "installed": "3.4.6",
+      "status": "match"
+    },
+    {
+      "name": "libfreetype",
+      "required": "2.13.3",
+      "installed": "2.13.3",
+      "status": "match"
+    },
+    {
+      "name": "libfreetype6",
+      "required": "2.13.3",
+      "installed": "2.13.3",
+      "status": "match"
+    },
+    {
+      "name": "libgd",
+      "required": "2.3.3",
+      "installed": "2.3.3",
+      "status": "match"
+    },
+    {
+      "name": "libgfortran",
+      "required": "14.2.0",
+      "installed": "14.2.0",
+      "status": "match"
+    },
+    {
+      "name": "libgfortran5",
+      "required": "14.2.0",
+      "installed": "14.2.0",
+      "status": "match"
+    },
+    {
+      "name": "libglib",
+      "required": "2.84.1",
+      "installed": "2.84.1",
+      "status": "match"
+    },
+    {
+      "name": "libgoogle-cloud",
+      "required": "2.36.0",
+      "installed": "2.36.0",
+      "status": "match"
+    },
+    {
+      "name": "libgoogle-cloud-storage",
+      "required": "2.36.0",
+      "installed": "2.36.0",
+      "status": "match"
+    },
+    {
+      "name": "libgrpc",
+      "required": "1.71.0",
+      "installed": "1.71.0",
+      "status": "match"
+    },
+    {
+      "name": "libheif",
+      "required": "1.19.7",
+      "installed": "1.19.7",
+      "status": "match"
+    },
+    {
+      "name": "libhwloc",
+      "required": "2.11.2",
+      "installed": "2.11.2",
+      "status": "match"
+    },
+    {
+      "name": "libhwy",
+      "required": "1.2.0",
+      "installed": "1.2.0",
+      "status": "match"
+    },
+    {
+      "name": "libiconv",
+      "required": "1.18",
+      "installed": "1.18",
+      "status": "match"
+    },
+    {
+      "name": "libintl",
+      "required": "0.24.1",
+      "installed": "0.24.1",
+      "status": "match"
+    },
+    {
+      "name": "libjpeg-turbo",
+      "required": "3.1.0",
+      "installed": "3.1.0",
+      "status": "match"
+    },
+    {
+      "name": "libjxl",
+      "required": "0.11.1",
+      "installed": "0.11.1",
+      "status": "match"
+    },
+    {
+      "name": "liblapack",
+      "required": "3.9.0",
+      "installed": "3.9.0",
+      "status": "match"
+    },
+    {
+      "name": "liblightgbm",
+      "required": "4.6.0",
+      "installed": "4.6.0",
+      "status": "match"
+    },
+    {
+      "name": "liblzma",
+      "required": "5.8.1",
+      "installed": "5.8.1",
+      "status": "match"
+    },
+    {
+      "name": "liblzma-devel",
+      "required": "5.8.1",
+      "installed": "5.8.1",
+      "status": "match"
+    },
+    {
+      "name": "libnghttp2",
+      "required": "1.64.0",
+      "installed": "1.64.0",
+      "status": "match"
+    },
+    {
+      "name": "libogg",
+      "required": "1.3.5",
+      "installed": "1.3.5",
+      "status": "match"
+    },
+    {
+      "name": "libopenblas",
+      "required": "0.3.29",
+      "installed": "0.3.29",
+      "status": "match"
+    },
+    {
+      "name": "libopentelemetry-cpp",
+      "required": "1.20.0",
+      "installed": "1.20.0",
+      "status": "match"
+    },
+    {
+      "name": "libopentelemetry-cpp-headers",
+      "required": "1.20.0",
+      "installed": "1.20.0",
+      "status": "match"
+    },
+    {
+      "name": "libopenvino",
+      "required": "2025.0.0",
+      "installed": "2025.0.0",
+      "status": "match"
+    },
+    {
+      "name": "libopenvino-arm-cpu-plugin",
+      "required": "2025.0.0",
+      "installed": "2025.0.0",
+      "status": "match"
+    },
+    {
+      "name": "libopenvino-auto-batch-plugin",
+      "required": "2025.0.0",
+      "installed": "2025.0.0",
+      "status": "match"
+    },
+    {
+      "name": "libopenvino-auto-plugin",
+      "required": "2025.0.0",
+      "installed": "2025.0.0",
+      "status": "match"
+    },
+    {
+      "name": "libopenvino-hetero-plugin",
+      "required": "2025.0.0",
+      "installed": "2025.0.0",
+      "status": "match"
+    },
+    {
+      "name": "libopenvino-ir-frontend",
+      "required": "2025.0.0",
+      "installed": "2025.0.0",
+      "status": "match"
+    },
+    {
+      "name": "libopenvino-onnx-frontend",
+      "required": "2025.0.0",
+      "installed": "2025.0.0",
+      "status": "match"
+    },
+    {
+      "name": "libopenvino-paddle-frontend",
+      "required": "2025.0.0",
+      "installed": "2025.0.0",
+      "status": "match"
+    },
+    {
+      "name": "libopenvino-pytorch-frontend",
+      "required": "2025.0.0",
+      "installed": "2025.0.0",
+      "status": "match"
+    },
+    {
+      "name": "libopenvino-tensorflow-frontend",
+      "required": "2025.0.0",
+      "installed": "2025.0.0",
+      "status": "match"
+    },
+    {
+      "name": "libopenvino-tensorflow-lite-frontend",
+      "required": "2025.0.0",
+      "installed": "2025.0.0",
+      "status": "match"
+    },
+    {
+      "name": "libopus",
+      "required": "1.5.2",
+      "installed": "1.5.2",
+      "status": "match"
+    },
+    {
+      "name": "libparquet",
+      "required": "20.0.0",
+      "installed": "20.0.0",
+      "status": "match"
+    },
+    {
+      "name": "libpng",
+      "required": "1.6.47",
+      "installed": "1.6.47",
+      "status": "match"
+    },
+    {
+      "name": "libprotobuf",
+      "required": "5.29.3",
+      "installed": "5.29.3",
+      "status": "match"
+    },
+    {
+      "name": "libre2-11",
+      "required": "2024.07.02",
+      "installed": "2024.07.02",
+      "status": "match"
+    },
+    {
+      "name": "librsvg",
+      "required": "2.58.4",
+      "installed": "2.58.4",
+      "status": "match"
+    },
+    {
+      "name": "libsentencepiece",
+      "required": "0.2.0",
+      "installed": "0.2.0",
+      "status": "match"
+    },
+    {
+      "name": "libsodium",
+      "required": "1.0.20",
+      "installed": "1.0.20",
+      "status": "match"
+    },
+    {
+      "name": "libsqlite",
+      "required": "3.49.2",
+      "installed": "3.49.2",
+      "status": "match"
+    },
+    {
+      "name": "libssh2",
+      "required": "1.11.1",
+      "installed": "1.11.1",
+      "status": "match"
+    },
+    {
+      "name": "libthrift",
+      "required": "0.21.0",
+      "installed": "0.21.0",
+      "status": "match"
+    },
+    {
+      "name": "libtiff",
+      "required": "4.7.0",
+      "installed": "4.7.0",
+      "status": "match"
+    },
+    {
+      "name": "libtorch",
+      "required": "2.6.0",
+      "installed": "2.6.0",
+      "status": "match"
+    },
+    {
+      "name": "libusb",
+      "required": "1.0.28",
+      "installed": "1.0.28",
+      "status": "match"
+    },
+    {
+      "name": "libutf8proc",
+      "required": "2.10.0",
+      "installed": "2.10.0",
+      "status": "match"
+    },
+    {
+      "name": "libuv",
+      "required": "1.50.0",
+      "installed": "1.50.0",
+      "status": "match"
+    },
+    {
+      "name": "libvorbis",
+      "required": "1.3.7",
+      "installed": "1.3.7",
+      "status": "match"
+    },
+    {
+      "name": "libvpx",
+      "required": "1.14.1",
+      "installed": "1.14.1",
+      "status": "match"
+    },
+    {
+      "name": "libwebp-base",
+      "required": "1.5.0",
+      "installed": "1.5.0",
+      "status": "match"
+    },
+    {
+      "name": "libxcb",
+      "required": "1.17.0",
+      "installed": "1.17.0",
+      "status": "match"
+    },
+    {
+      "name": "libxgboost",
+      "required": "3.0.1",
+      "installed": "3.0.1",
+      "status": "match"
+    },
+    {
+      "name": "libxml2",
+      "required": "2.13.8",
+      "installed": "2.13.8",
+      "status": "match"
+    },
+    {
+      "name": "libzlib",
+      "required": "1.3.1",
+      "installed": "1.3.1",
+      "status": "match"
+    },
+    {
+      "name": "libzopfli",
+      "required": "1.0.3",
+      "installed": "1.0.3",
+      "status": "match"
+    },
+    {
+      "name": "lightgbm",
+      "required": "4.6.0",
+      "installed": "4.6.0",
+      "status": "match"
+    },
+    {
+      "name": "lightning",
+      "required": "2.5.1.post0",
+      "installed": "2.5.1.post0",
+      "status": "match"
+    },
+    {
+      "name": "lightning-utilities",
+      "required": "0.14.3",
+      "installed": "0.14.3",
+      "status": "match"
+    },
+    {
+      "name": "linkify-it-py",
+      "required": "2.0.3",
+      "installed": "2.0.3",
+      "status": "match"
+    },
+    {
+      "name": "llvm-openmp",
+      "required": "20.1.5",
+      "installed": "20.1.5",
+      "status": "match"
+    },
+    {
+      "name": "llvmlite",
+      "required": "0.44.0",
+      "installed": "0.44.0",
+      "status": "match"
+    },
+    {
+      "name": "lz4-c",
+      "required": "1.10.0",
+      "installed": "1.10.0",
+      "status": "match"
+    },
+    {
+      "name": "mako",
+      "required": "1.3.10",
+      "installed": "1.3.10",
+      "status": "match"
+    },
+    {
+      "name": "markdown",
+      "required": "3.8.2",
+      "installed": "3.8.2",
+      "status": "match"
+    },
+    {
+      "name": "markdown-it-py",
+      "required": "2.2.0",
+      "installed": "2.2.0",
+      "status": "match"
+    },
+    {
+      "name": "markupsafe",
+      "required": "3.0.2",
+      "installed": "3.0.2",
+      "status": "match"
+    },
+    {
+      "name": "matplotlib-base",
+      "required": "3.10.3",
+      "installed": "3.10.3",
+      "status": "match"
+    },
+    {
+      "name": "matplotlib-inline",
+      "required": "0.2.1",
+      "installed": "0.2.1",
+      "status": "match"
+    },
+    {
+      "name": "mdit-py-plugins",
+      "required": "0.3.0",
+      "installed": "0.3.0",
+      "status": "match"
+    },
+    {
+      "name": "mdurl",
+      "required": "0.1.2",
+      "installed": "0.1.2",
+      "status": "match"
+    },
+    {
+      "name": "mlforecast",
+      "required": "0.13.6",
+      "installed": "0.13.6",
+      "status": "match"
+    },
+    {
+      "name": "model-index",
+      "required": "0.1.11",
+      "installed": "0.1.11",
+      "status": "match"
+    },
+    {
+      "name": "mpc",
+      "required": "1.4.0",
+      "installed": "1.4.0",
+      "status": "match"
+    },
+    {
+      "name": "mpfr",
+      "required": "4.2.2",
+      "installed": "4.2.2",
+      "status": "match"
+    },
+    {
+      "name": "mpmath",
+      "required": "1.3.0",
+      "installed": "1.3.0",
+      "status": "match"
+    },
+    {
+      "name": "msgpack-python",
+      "required": "1.1.0",
+      "installed": "1.1.0",
+      "status": "match"
+    },
+    {
+      "name": "multidict",
+      "required": "6.4.3",
+      "installed": "6.4.3",
+      "status": "match"
+    },
+    {
+      "name": "multiprocess",
+      "required": "0.70.15",
+      "installed": "0.70.15",
+      "status": "match"
+    },
+    {
+      "name": "munkres",
+      "required": "1.1.4",
+      "installed": "1.1.4",
+      "status": "match"
+    },
+    {
+      "name": "murmurhash",
+      "required": "1.0.10",
+      "installed": "1.0.10",
+      "status": "match"
+    },
+    {
+      "name": "narwhals",
+      "required": "1.39.1",
+      "installed": "1.39.1",
+      "status": "match"
+    },
+    {
+      "name": "ncurses",
+      "required": "6.5",
+      "installed": "6.5",
+      "status": "match"
+    },
+    {
+      "name": "nest-asyncio",
+      "required": "1.6.0",
+      "installed": "1.6.0",
+      "status": "match"
+    },
+    {
+      "name": "networkx",
+      "required": "3.4.2",
+      "installed": "3.4.2",
+      "status": "match"
+    },
+    {
+      "name": "nlohmann_json",
+      "required": "3.12.0",
+      "installed": "3.12.0",
+      "status": "match"
+    },
+    {
+      "name": "nlpaug",
+      "required": "1.1.11",
+      "installed": "1.1.11",
+      "status": "match"
+    },
+    {
+      "name": "nltk",
+      "required": "3.9.1",
+      "installed": "3.9.1",
+      "status": "match"
+    },
+    {
+      "name": "nomkl",
+      "required": "1.0",
+      "installed": "1.0",
+      "status": "match"
+    },
+    {
+      "name": "nspr",
+      "required": "4.36",
+      "installed": "4.36",
+      "status": "match"
+    },
+    {
+      "name": "nss",
+      "required": "3.111",
+      "installed": "3.111",
+      "status": "match"
+    },
+    {
+      "name": "numba",
+      "required": "0.61.2",
+      "installed": "0.61.2",
+      "status": "match"
+    },
+    {
+      "name": "omegaconf",
+      "required": "2.3.0",
+      "installed": "2.3.0",
+      "status": "match"
+    },
+    {
+      "name": "opencensus",
+      "required": "0.11.3",
+      "installed": "0.11.3",
+      "status": "match"
+    },
+    {
+      "name": "opencensus-context",
+      "required": "0.1.3",
+      "installed": "0.1.3",
+      "status": "match"
+    },
+    {
+      "name": "opencl-headers",
+      "required": "2024.10.24",
+      "installed": "2024.10.24",
+      "status": "match"
+    },
+    {
+      "name": "openh264",
+      "required": "2.6.0",
+      "installed": "2.6.0",
+      "status": "match"
+    },
+    {
+      "name": "openjpeg",
+      "required": "2.5.3",
+      "installed": "2.5.3",
+      "status": "match"
+    },
+    {
+      "name": "openmim",
+      "required": "0.3.7",
+      "installed": "0.3.7",
+      "status": "match"
+    },
+    {
+      "name": "openssl",
+      "required": "3.6.1",
+      "installed": "3.6.1",
+      "status": "match"
+    },
+    {
+      "name": "optree",
+      "required": "0.15.0",
+      "installed": "0.15.0",
+      "status": "match"
+    },
+    {
+      "name": "optuna",
+      "required": "4.3.0",
+      "installed": "4.3.0",
+      "status": "match"
+    },
+    {
+      "name": "orc",
+      "required": "2.1.2",
+      "installed": "2.1.2",
+      "status": "match"
+    },
+    {
+      "name": "ordered-set",
+      "required": "4.1.0",
+      "installed": "4.1.0",
+      "status": "match"
+    },
+    {
+      "name": "orjson",
+      "required": "3.10.18",
+      "installed": "3.10.18",
+      "status": "match"
+    },
+    {
+      "name": "packaging",
+      "required": "24.2",
+      "installed": "24.2",
+      "status": "match"
+    },
+    {
+      "name": "pandas",
+      "required": "2.2.3",
+      "installed": "2.2.3",
+      "status": "match"
+    },
+    {
+      "name": "pango",
+      "required": "1.56.3",
+      "installed": "1.56.3",
+      "status": "match"
+    },
+    {
+      "name": "parso",
+      "required": "0.8.6",
+      "installed": "0.8.6",
+      "status": "match"
+    },
+    {
+      "name": "patsy",
+      "required": "1.0.1",
+      "installed": "1.0.1",
+      "status": "match"
+    },
+    {
+      "name": "pcre2",
+      "required": "10.45",
+      "installed": "10.45",
+      "status": "match"
+    },
+    {
+      "name": "pdf2image",
+      "required": "1.17.0",
+      "installed": "1.17.0",
+      "status": "match"
+    },
+    {
+      "name": "pexpect",
+      "required": "4.9.0",
+      "installed": "4.9.0",
+      "status": "match"
+    },
+    {
+      "name": "pillow",
+      "required": "11.2.1",
+      "installed": "11.2.1",
+      "status": "match"
+    },
+    {
+      "name": "pip",
+      "required": "25.1.1",
+      "installed": "25.1.1",
+      "status": "match"
+    },
+    {
+      "name": "pixman",
+      "required": "0.46.0",
+      "installed": "0.46.0",
+      "status": "match"
+    },
+    {
+      "name": "pkgutil-resolve-name",
+      "required": "1.3.10",
+      "installed": "1.3.10",
+      "status": "match"
+    },
+    {
+      "name": "platformdirs",
+      "required": "4.3.8",
+      "installed": "4.3.8",
+      "status": "match"
+    },
+    {
+      "name": "plotly",
+      "required": "6.1.0",
+      "installed": "6.1.0",
+      "status": "match"
+    },
+    {
+      "name": "poppler",
+      "required": "25.02.0",
+      "installed": "25.02.0",
+      "status": "match"
+    },
+    {
+      "name": "poppler-data",
+      "required": "0.4.12",
+      "installed": "0.4.12",
+      "status": "match"
+    },
+    {
+      "name": "preshed",
+      "required": "3.0.9",
+      "installed": "3.0.9",
+      "status": "match"
+    },
+    {
+      "name": "prometheus-cpp",
+      "required": "1.3.0",
+      "installed": "1.3.0",
+      "status": "match"
+    },
+    {
+      "name": "prometheus_client",
+      "required": "0.22.0",
+      "installed": "0.22.0",
+      "status": "match"
+    },
+    {
+      "name": "prompt-toolkit",
+      "required": "3.0.52",
+      "installed": "3.0.52",
+      "status": "match"
+    },
+    {
+      "name": "propcache",
+      "required": "0.3.1",
+      "installed": "0.3.1",
+      "status": "match"
+    },
+    {
+      "name": "proto-plus",
+      "required": "1.26.1",
+      "installed": "1.26.1",
+      "status": "match"
+    },
+    {
+      "name": "protobuf",
+      "required": "5.29.3",
+      "installed": "5.29.3",
+      "status": "match"
+    },
+    {
+      "name": "psutil",
+      "required": "7.0.0",
+      "installed": "7.0.0",
+      "status": "match"
+    },
+    {
+      "name": "pthread-stubs",
+      "required": "0.4",
+      "installed": "0.4",
+      "status": "match"
+    },
+    {
+      "name": "ptyprocess",
+      "required": "0.7.0",
+      "installed": "0.7.0",
+      "status": "match"
+    },
+    {
+      "name": "pugixml",
+      "required": "1.15",
+      "installed": "1.15",
+      "status": "match"
+    },
+    {
+      "name": "pure_eval",
+      "required": "0.2.3",
+      "installed": "0.2.3",
+      "status": "match"
+    },
+    {
+      "name": "py-spy",
+      "required": "0.4.0",
+      "installed": "0.4.0",
+      "status": "match"
+    },
+    {
+      "name": "py-xgboost",
+      "required": "3.0.1",
+      "installed": "3.0.1",
+      "status": "match"
+    },
+    {
+      "name": "py4j",
+      "required": "0.10.9.9",
+      "installed": "0.10.9.9",
+      "status": "match"
+    },
+    {
+      "name": "pyarrow",
+      "required": "20.0.0",
+      "installed": "20.0.0",
+      "status": "match"
+    },
+    {
+      "name": "pyarrow-core",
+      "required": "20.0.0",
+      "installed": "20.0.0",
+      "status": "match"
+    },
+    {
+      "name": "pyasn1",
+      "required": "0.6.1",
+      "installed": "0.6.1",
+      "status": "match"
+    },
+    {
+      "name": "pyasn1-modules",
+      "required": "0.4.2",
+      "installed": "0.4.2",
+      "status": "match"
+    },
+    {
+      "name": "pybind11",
+      "required": "2.13.6",
+      "installed": "2.13.6",
+      "status": "match"
+    },
+    {
+      "name": "pybind11-global",
+      "required": "2.13.6",
+      "installed": "2.13.6",
+      "status": "match"
+    },
+    {
+      "name": "pycparser",
+      "required": "2.22",
+      "installed": "2.22",
+      "status": "match"
+    },
+    {
+      "name": "pydantic",
+      "required": "2.10.1",
+      "installed": "2.10.1",
+      "status": "match"
+    },
+    {
+      "name": "pydantic-core",
+      "required": "2.27.1",
+      "installed": "2.27.1",
+      "status": "match"
+    },
+    {
+      "name": "pydub",
+      "required": "0.25.1",
+      "installed": "0.25.1",
+      "status": "match"
+    },
+    {
+      "name": "pygments",
+      "required": "2.19.1",
+      "installed": "2.19.1",
+      "status": "match"
+    },
+    {
+      "name": "pyopenssl",
+      "required": "25.0.0",
+      "installed": "25.0.0",
+      "status": "match"
+    },
+    {
+      "name": "pyparsing",
+      "required": "3.2.3",
+      "installed": "3.2.3",
+      "status": "match"
+    },
+    {
+      "name": "pysocks",
+      "required": "1.7.1",
+      "installed": "1.7.1",
+      "status": "match"
+    },
+    {
+      "name": "pytesseract",
+      "required": "0.3.13",
+      "installed": "0.3.13",
+      "status": "match"
+    },
+    {
+      "name": "python",
+      "required": "3.12.10",
+      "installed": "3.12.10",
+      "status": "match"
+    },
+    {
+      "name": "python-dateutil",
+      "required": "2.9.0.post0",
+      "installed": "2.9.0.post0",
+      "status": "match"
+    },
+    {
+      "name": "python-dotenv",
+      "required": "1.1.0",
+      "installed": "1.1.0",
+      "status": "match"
+    },
+    {
+      "name": "python-gil",
+      "required": "3.12.14",
+      "installed": "3.12.14",
+      "status": "match"
+    },
+    {
+      "name": "python-graphviz",
+      "required": "0.20.3",
+      "installed": "0.20.3",
+      "status": "match"
+    },
+    {
+      "name": "python-multipart",
+      "required": "0.0.20",
+      "installed": "0.0.20",
+      "status": "match"
+    },
+    {
+      "name": "python-slugify",
+      "required": "8.0.4",
+      "installed": "8.0.4",
+      "status": "match"
+    },
+    {
+      "name": "python-tzdata",
+      "required": "2025.2",
+      "installed": "2025.2",
+      "status": "match"
+    },
+    {
+      "name": "python-xxhash",
+      "required": "3.5.0",
+      "installed": "3.5.0",
+      "status": "match"
+    },
+    {
+      "name": "python_abi",
+      "required": "3.12",
+      "installed": "3.12",
+      "status": "match"
+    },
+    {
+      "name": "pytorch",
+      "required": "2.6.0",
+      "installed": "2.6.0",
+      "status": "match"
+    },
+    {
+      "name": "pytorch-lightning",
+      "required": "2.5.1.post0",
+      "installed": "2.5.1.post0",
+      "status": "match"
+    },
+    {
+      "name": "pytorch-metric-learning",
+      "required": "2.8.1",
+      "installed": "2.8.1",
+      "status": "match"
+    },
+    {
+      "name": "pytz",
+      "required": "2025.2",
+      "installed": "2025.2",
+      "status": "match"
+    },
+    {
+      "name": "pyu2f",
+      "required": "0.1.5",
+      "installed": "0.1.5",
+      "status": "match"
+    },
+    {
+      "name": "pywavelets",
+      "required": "1.8.0",
+      "installed": "1.8.0",
+      "status": "match"
+    },
+    {
+      "name": "pyyaml",
+      "required": "6.0.2",
+      "installed": "6.0.2",
+      "status": "match"
+    },
+    {
+      "name": "pyzmq",
+      "required": "27.1.0",
+      "installed": "27.1.0",
+      "status": "match"
+    },
+    {
+      "name": "qhull",
+      "required": "2020.2",
+      "installed": "2020.2",
+      "status": "match"
+    },
+    {
+      "name": "rav1e",
+      "required": "0.7.1",
+      "installed": "0.7.1",
+      "status": "match"
+    },
+    {
+      "name": "ray-core",
+      "required": "2.37.0",
+      "installed": "2.37.0",
+      "status": "match"
+    },
+    {
+      "name": "ray-default",
+      "required": "2.37.0",
+      "installed": "2.37.0",
+      "status": "match"
+    },
+    {
+      "name": "ray-tune",
+      "required": "2.37.0",
+      "installed": "2.37.0",
+      "status": "match"
+    },
+    {
+      "name": "re2",
+      "required": "2024.07.02",
+      "installed": "2024.07.02",
+      "status": "match"
+    },
+    {
+      "name": "readline",
+      "required": "8.2",
+      "installed": "8.2",
+      "status": "match"
+    },
+    {
+      "name": "referencing",
+      "required": "0.36.2",
+      "installed": "0.36.2",
+      "status": "match"
+    },
+    {
+      "name": "regex",
+      "required": "2024.11.6",
+      "installed": "2024.11.6",
+      "status": "match"
+    },
+    {
+      "name": "requests",
+      "required": "2.32.3",
+      "installed": "2.32.3",
+      "status": "match"
+    },
+    {
+      "name": "rich",
+      "required": "14.0.0",
+      "installed": "14.0.0",
+      "status": "match"
+    },
+    {
+      "name": "rich-toolkit",
+      "required": "0.11.3",
+      "installed": "0.11.3",
+      "status": "match"
+    },
+    {
+      "name": "rpds-py",
+      "required": "0.25.0",
+      "installed": "0.25.0",
+      "status": "match"
+    },
+    {
+      "name": "rsa",
+      "required": "4.9.1",
+      "installed": "4.9.1",
+      "status": "match"
+    },
+    {
+      "name": "s3transfer",
+      "required": "0.12.0",
+      "installed": "0.12.0",
+      "status": "match"
+    },
+    {
+      "name": "safetensors",
+      "required": "0.5.3",
+      "installed": "0.5.3",
+      "status": "match"
+    },
+    {
+      "name": "scikit-image",
+      "required": "0.25.2",
+      "installed": "0.25.2",
+      "status": "match"
+    },
+    {
+      "name": "scikit-learn",
+      "required": "1.6.1",
+      "installed": "1.6.1",
+      "status": "match"
+    },
+    {
+      "name": "scipy",
+      "required": "1.15.2",
+      "installed": "1.15.2",
+      "status": "match"
+    },
+    {
+      "name": "sdl2",
+      "required": "2.32.54",
+      "installed": "2.32.54",
+      "status": "match"
+    },
+    {
+      "name": "sdl3",
+      "required": "3.2.14",
+      "installed": "3.2.14",
+      "status": "match"
+    },
+    {
+      "name": "semantic_version",
+      "required": "2.10.0",
+      "installed": "2.10.0",
+      "status": "match"
+    },
+    {
+      "name": "sentencepiece",
+      "required": "0.2.0",
+      "installed": "0.2.0",
+      "status": "match"
+    },
+    {
+      "name": "sentencepiece-python",
+      "required": "0.2.0",
+      "installed": "0.2.0",
+      "status": "match"
+    },
+    {
+      "name": "sentencepiece-spm",
+      "required": "0.2.0",
+      "installed": "0.2.0",
+      "status": "match"
+    },
+    {
+      "name": "seqeval",
+      "required": "1.2.2",
+      "installed": "1.2.2",
+      "status": "match"
+    },
+    {
+      "name": "setproctitle",
+      "required": "1.2.2",
+      "installed": "1.2.2",
+      "status": "match"
+    },
+    {
+      "name": "setuptools",
+      "required": "80.1.0",
+      "installed": "80.1.0",
+      "status": "match"
+    },
+    {
+      "name": "shellingham",
+      "required": "1.5.4",
+      "installed": "1.5.4",
+      "status": "match"
+    },
+    {
+      "name": "six",
+      "required": "1.17.0",
+      "installed": "1.17.0",
+      "status": "match"
+    },
+    {
+      "name": "sleef",
+      "required": "3.8",
+      "installed": "3.8",
+      "status": "match"
+    },
+    {
+      "name": "smart-open",
+      "required": "7.1.0",
+      "installed": "7.1.0",
+      "status": "match"
+    },
+    {
+      "name": "smart_open",
+      "required": "7.1.0",
+      "installed": "7.1.0",
+      "status": "match"
+    },
+    {
+      "name": "snappy",
+      "required": "1.2.1",
+      "installed": "1.2.1",
+      "status": "match"
+    },
+    {
+      "name": "sniffio",
+      "required": "1.3.1",
+      "installed": "1.3.1",
+      "status": "match"
+    },
+    {
+      "name": "soupsieve",
+      "required": "2.7",
+      "installed": "2.7",
+      "status": "match"
+    },
+    {
+      "name": "spacy",
+      "required": "3.8.5",
+      "installed": "3.8.5",
+      "status": "match"
+    },
+    {
+      "name": "spacy-legacy",
+      "required": "3.0.12",
+      "installed": "3.0.12",
+      "status": "match"
+    },
+    {
+      "name": "spacy-loggers",
+      "required": "1.0.5",
+      "installed": "1.0.5",
+      "status": "match"
+    },
+    {
+      "name": "sqlalchemy",
+      "required": "2.0.41",
+      "installed": "2.0.41",
+      "status": "match"
+    },
+    {
+      "name": "srsly",
+      "required": "2.5.1",
+      "installed": "2.5.1",
+      "status": "match"
+    },
+    {
+      "name": "stack_data",
+      "required": "0.6.3",
+      "installed": "0.6.3",
+      "status": "match"
+    },
+    {
+      "name": "starlette",
+      "required": "0.46.2",
+      "installed": "0.46.2",
+      "status": "match"
+    },
+    {
+      "name": "statsforecast",
+      "required": "2.0.1",
+      "installed": "2.0.1",
+      "status": "match"
+    },
+    {
+      "name": "statsmodels",
+      "required": "0.14.4",
+      "installed": "0.14.4",
+      "status": "match"
+    },
+    {
+      "name": "svt-av1",
+      "required": "3.0.2",
+      "installed": "3.0.2",
+      "status": "match"
+    },
+    {
+      "name": "sympy",
+      "required": "1.14.0",
+      "installed": "1.14.0",
+      "status": "match"
+    },
+    {
+      "name": "tabulate",
+      "required": "0.9.0",
+      "installed": "0.9.0",
+      "status": "match"
+    },
+    {
+      "name": "tbb",
+      "required": "2022.1.0",
+      "installed": "2022.1.0",
+      "status": "match"
+    },
+    {
+      "name": "tensorboard",
+      "required": "2.19.0",
+      "installed": "2.19.0",
+      "status": "match"
+    },
+    {
+      "name": "tensorboard-data-server",
+      "required": "0.7.0",
+      "installed": "0.7.0",
+      "status": "match"
+    },
+    {
+      "name": "tensorboardx",
+      "required": "2.6.2.2",
+      "installed": "2.6.2.2",
+      "status": "match"
+    },
+    {
+      "name": "text-unidecode",
+      "required": "1.3",
+      "installed": "1.3",
+      "status": "match"
+    },
+    {
+      "name": "thinc",
+      "required": "8.3.2",
+      "installed": "8.3.2",
+      "status": "match"
+    },
+    {
+      "name": "threadpoolctl",
+      "required": "3.6.0",
+      "installed": "3.6.0",
+      "status": "match"
+    },
+    {
+      "name": "tifffile",
+      "required": "2025.5.10",
+      "installed": "2025.5.10",
+      "status": "match"
+    },
+    {
+      "name": "timm",
+      "required": "1.0.3",
+      "installed": "1.0.3",
+      "status": "match"
+    },
+    {
+      "name": "tk",
+      "required": "8.6.13",
+      "installed": "8.6.13",
+      "status": "match"
+    },
+    {
+      "name": "tokenizers",
+      "required": "0.21.1",
+      "installed": "0.21.1",
+      "status": "match"
+    },
+    {
+      "name": "toolz",
+      "required": "0.12.1",
+      "installed": "0.12.1",
+      "status": "match"
+    },
+    {
+      "name": "torchmetrics",
+      "required": "1.7.1",
+      "installed": "1.7.1",
+      "status": "match"
+    },
+    {
+      "name": "torchvision",
+      "required": "0.21.0",
+      "installed": "0.21.0",
+      "status": "match"
+    },
+    {
+      "name": "torchvision-extra-decoders",
+      "required": "0.0.2",
+      "installed": "0.0.2",
+      "status": "match"
+    },
+    {
+      "name": "tornado",
+      "required": "6.5.4",
+      "installed": "6.5.4",
+      "status": "match"
+    },
+    {
+      "name": "tqdm",
+      "required": "4.67.1",
+      "installed": "4.67.1",
+      "status": "match"
+    },
+    {
+      "name": "traitlets",
+      "required": "5.14.3",
+      "installed": "5.14.3",
+      "status": "match"
+    },
+    {
+      "name": "transformers",
+      "required": "4.51.3",
+      "installed": "4.51.3",
+      "status": "match"
+    },
+    {
+      "name": "triad",
+      "required": "0.9.8",
+      "installed": "0.9.8",
+      "status": "match"
+    },
+    {
+      "name": "typer",
+      "required": "0.15.4",
+      "installed": "0.15.4",
+      "status": "match"
+    },
+    {
+      "name": "typer-slim",
+      "required": "0.15.4",
+      "installed": "0.15.4",
+      "status": "match"
+    },
+    {
+      "name": "typer-slim-standard",
+      "required": "0.15.4",
+      "installed": "0.15.4",
+      "status": "match"
+    },
+    {
+      "name": "types-python-dateutil",
+      "required": "2.9.0.20250516",
+      "installed": "2.9.0.20250516",
+      "status": "match"
+    },
+    {
+      "name": "typing-extensions",
+      "required": "4.13.2",
+      "installed": "4.13.2",
+      "status": "match"
+    },
+    {
+      "name": "typing_extensions",
+      "required": "4.13.2",
+      "installed": "4.13.2",
+      "status": "match"
+    },
+    {
+      "name": "tzdata",
+      "required": "2025b",
+      "installed": "2025b",
+      "status": "match"
+    },
+    {
+      "name": "uc-micro-py",
+      "required": "1.0.3",
+      "installed": "1.0.3",
+      "status": "match"
+    },
+    {
+      "name": "ujson",
+      "required": "5.10.0",
+      "installed": "5.10.0",
+      "status": "match"
+    },
+    {
+      "name": "unicodedata2",
+      "required": "16.0.0",
+      "installed": "16.0.0",
+      "status": "match"
+    },
+    {
+      "name": "urllib3",
+      "required": "2.4.0",
+      "installed": "2.4.0",
+      "status": "match"
+    },
+    {
+      "name": "utilsforecast",
+      "required": "0.2.10",
+      "installed": "0.2.10",
+      "status": "match"
+    },
+    {
+      "name": "uvicorn",
+      "required": "0.34.2",
+      "installed": "0.34.2",
+      "status": "match"
+    },
+    {
+      "name": "uvicorn-standard",
+      "required": "0.34.2",
+      "installed": "0.34.2",
+      "status": "match"
+    },
+    {
+      "name": "uvloop",
+      "required": "0.21.0",
+      "installed": "0.21.0",
+      "status": "match"
+    },
+    {
+      "name": "virtualenv",
+      "required": "20.31.2",
+      "installed": "20.31.2",
+      "status": "match"
+    },
+    {
+      "name": "wasabi",
+      "required": "1.1.3",
+      "installed": "1.1.3",
+      "status": "match"
+    },
+    {
+      "name": "watchfiles",
+      "required": "1.0.5",
+      "installed": "1.0.5",
+      "status": "match"
+    },
+    {
+      "name": "wcwidth",
+      "required": "0.6.0",
+      "installed": "0.6.0",
+      "status": "match"
+    },
+    {
+      "name": "weasel",
+      "required": "0.4.1",
+      "installed": "0.4.1",
+      "status": "match"
+    },
+    {
+      "name": "websockets",
+      "required": "15.0.1",
+      "installed": "15.0.1",
+      "status": "match"
+    },
+    {
+      "name": "werkzeug",
+      "required": "3.1.3",
+      "installed": "3.1.3",
+      "status": "match"
+    },
+    {
+      "name": "wheel",
+      "required": "0.45.1",
+      "installed": "0.45.1",
+      "status": "match"
+    },
+    {
+      "name": "window-ops",
+      "required": "0.0.15",
+      "installed": "0.0.15",
+      "status": "match"
+    },
+    {
+      "name": "wrapt",
+      "required": "1.17.2",
+      "installed": "1.17.2",
+      "status": "match"
+    },
+    {
+      "name": "x264",
+      "required": "1!164.3095",
+      "installed": "1!164.3095",
+      "status": "match"
+    },
+    {
+      "name": "x265",
+      "required": "3.5",
+      "installed": "3.5",
+      "status": "match"
+    },
+    {
+      "name": "xgboost",
+      "required": "3.0.1",
+      "installed": "3.0.1",
+      "status": "match"
+    },
+    {
+      "name": "xorg-libxau",
+      "required": "1.0.12",
+      "installed": "1.0.12",
+      "status": "match"
+    },
+    {
+      "name": "xorg-libxdmcp",
+      "required": "1.1.5",
+      "installed": "1.1.5",
+      "status": "match"
+    },
+    {
+      "name": "xxhash",
+      "required": "0.8.3",
+      "installed": "0.8.3",
+      "status": "match"
+    },
+    {
+      "name": "xz",
+      "required": "5.8.1",
+      "installed": "5.8.1",
+      "status": "match"
+    },
+    {
+      "name": "xz-gpl-tools",
+      "required": "5.8.1",
+      "installed": "5.8.1",
+      "status": "match"
+    },
+    {
+      "name": "xz-tools",
+      "required": "5.8.1",
+      "installed": "5.8.1",
+      "status": "match"
+    },
+    {
+      "name": "yaml",
+      "required": "0.2.5",
+      "installed": "0.2.5",
+      "status": "match"
+    },
+    {
+      "name": "yarl",
+      "required": "1.20.0",
+      "installed": "1.20.0",
+      "status": "match"
+    },
+    {
+      "name": "zeromq",
+      "required": "4.3.5",
+      "installed": "4.3.5",
+      "status": "match"
+    },
+    {
+      "name": "zfp",
+      "required": "1.0.1",
+      "installed": "1.0.1",
+      "status": "match"
+    },
+    {
+      "name": "zipp",
+      "required": "3.21.0",
+      "installed": "3.21.0",
+      "status": "match"
+    },
+    {
+      "name": "zlib",
+      "required": "1.3.1",
+      "installed": "1.3.1",
+      "status": "match"
+    },
+    {
+      "name": "zlib-ng",
+      "required": "2.2.4",
+      "installed": "2.2.4",
+      "status": "match"
+    },
+    {
+      "name": "zstandard",
+      "required": "0.23.0",
+      "installed": "0.23.0",
+      "status": "match"
+    },
+    {
+      "name": "zstd",
+      "required": "1.5.7",
+      "installed": "1.5.7",
+      "status": "match"
+    }
+  ],
+  "pip_comparison": [
+    {
+      "name": "about-time",
+      "required": "4.2.1",
+      "installed": "4.2.1",
+      "status": "match"
+    },
+    {
+      "name": "alive-progress",
+      "required": "3.3.0",
+      "installed": "3.3.0",
+      "status": "match"
+    },
+    {
+      "name": "autograd",
+      "required": "1.8.0",
+      "installed": "1.8.0",
+      "status": "match"
+    },
+    {
+      "name": "cadquery",
+      "required": "2.8.0",
+      "installed": "2.8.0",
+      "status": "match"
+    },
+    {
+      "name": "cadquery-ocp",
+      "required": "7.9.3.1.1",
+      "installed": "7.9.3.1.1",
+      "status": "match"
+    },
+    {
+      "name": "cadquery-ocp-proxy",
+      "required": "7.9.3.1.1",
+      "installed": "7.9.3.1.1",
+      "status": "match"
+    },
+    {
+      "name": "casadi",
+      "required": "3.8.0",
+      "installed": "3.8.0",
+      "status": "match"
+    },
+    {
+      "name": "cma",
+      "required": "4.4.3",
+      "installed": "4.4.3",
+      "status": "match"
+    },
+    {
+      "name": "copulas",
+      "required": "0.12.3",
+      "installed": "0.12.3",
+      "status": "match"
+    },
+    {
+      "name": "ctgan",
+      "required": "0.11.1",
+      "installed": "0.11.1",
+      "status": "match"
+    },
+    {
+      "name": "deepecho",
+      "required": "0.7.0",
+      "installed": "0.7.0",
+      "status": "match"
+    },
+    {
+      "name": "deprecated",
+      "required": "1.3.1",
+      "installed": "1.3.1",
+      "status": "match"
+    },
+    {
+      "name": "ezdxf",
+      "required": "1.4.4",
+      "installed": "1.4.4",
+      "status": "match"
+    },
+    {
+      "name": "faker",
+      "required": "38.2.0",
+      "installed": "38.2.0",
+      "status": "match"
+    },
+    {
+      "name": "graphemeu",
+      "required": "0.7.2",
+      "installed": "0.7.2",
+      "status": "match"
+    },
+    {
+      "name": "moocore",
+      "required": "0.2.0",
+      "installed": "0.2.0",
+      "status": "match"
+    },
+    {
+      "name": "more-itertools",
+      "required": "11.1.0",
+      "installed": "11.1.0",
+      "status": "match"
+    },
+    {
+      "name": "multimethod",
+      "required": "1.12",
+      "installed": "1.12",
+      "status": "match"
+    },
+    {
+      "name": "nlopt",
+      "required": "2.11.0",
+      "installed": "2.11.0",
+      "status": "match"
+    },
+    {
+      "name": "numpy",
+      "required": "2.2.6",
+      "installed": "2.2.6",
+      "status": "match"
+    },
+    {
+      "name": "numpy-stl",
+      "required": "3.2.0",
+      "installed": "3.2.0",
+      "status": "match"
+    },
+    {
+      "name": "pymoo",
+      "required": "0.6.1.6",
+      "installed": "0.6.1.6",
+      "status": "match"
+    },
+    {
+      "name": "python-utils",
+      "required": "3.9.1",
+      "installed": "3.9.1",
+      "status": "match"
+    },
+    {
+      "name": "rdt",
+      "required": "1.18.2",
+      "installed": "1.18.2",
+      "status": "match"
+    },
+    {
+      "name": "runtype",
+      "required": "0.5.3",
+      "installed": "0.5.3",
+      "status": "match"
+    },
+    {
+      "name": "sdmetrics",
+      "required": "0.24.0",
+      "installed": "0.24.0",
+      "status": "match"
+    },
+    {
+      "name": "sdv",
+      "required": "1.30.0",
+      "installed": "1.30.0",
+      "status": "match"
+    },
+    {
+      "name": "seaborn",
+      "required": "0.13.2",
+      "installed": "0.13.2",
+      "status": "match"
+    },
+    {
+      "name": "trame",
+      "required": "3.13.2",
+      "installed": "3.13.2",
+      "status": "match"
+    },
+    {
+      "name": "trame-client",
+      "required": "3.13.6",
+      "installed": "3.13.6",
+      "status": "match"
+    },
+    {
+      "name": "trame-common",
+      "required": "1.2.7",
+      "installed": "1.2.7",
+      "status": "match"
+    },
+    {
+      "name": "trame-components",
+      "required": "2.5.0",
+      "installed": "2.5.0",
+      "status": "match"
+    },
+    {
+      "name": "trame-server",
+      "required": "3.14.0",
+      "installed": "3.14.0",
+      "status": "match"
+    },
+    {
+      "name": "trame-vtk",
+      "required": "2.11.16",
+      "installed": "2.11.16",
+      "status": "match"
+    },
+    {
+      "name": "trame-vuetify",
+      "required": "3.2.5",
+      "installed": "3.2.5",
+      "status": "match"
+    },
+    {
+      "name": "vtk",
+      "required": "9.6.2",
+      "installed": "9.6.2",
+      "status": "match"
+    },
+    {
+      "name": "wslink",
+      "required": "2.5.7",
+      "installed": "2.5.7",
+      "status": "match"
+    }
+  ],
+  "additional_conda_packages": [
+    "numpy"
+  ],
+  "python_distributions_not_in_conda_records_or_pip_pins": {
+    "llvmlite": "0.44.0",
+    "munkres": "1.1.4",
+    "pyarrow": "20.0.0",
+    "setuptools": "80.1.0",
+    "zstandard": "0.23.0"
+  },
+  "conda_metadata_disagreements": [
+    {
+      "conda_name": "numpy",
+      "conda_version": "1.26.4",
+      "status": "recorded_metadata_file_missing",
+      "path": "lib/python3.12/site-packages/numpy-1.26.4.dist-info/METADATA"
+    }
+  ],
+  "duplicate_python_distribution_names": {},
+  "pip_check": {
+    "exit_code": 1,
+    "stdout": "autogluon-multimodal 1.3.0 requires nvidia-ml-py3, which is not installed.\nspacy 3.8.5 has requirement thinc<8.4.0,>=8.3.4, but you have thinc 8.3.2.\ncatboost 1.2.7 has requirement numpy<2.0,>=1.16.0, but you have numpy 2.2.6.\nautogluon-multimodal 1.3.0 has requirement transformers[sentencepiece]<4.50,>=4.38.0, but you have transformers 4.51.3.\ngluonts 0.16.1 has requirement numpy<2.2,>=1.16, but you have numpy 2.2.6.\nautogluon-timeseries 1.3.0 has requirement coreforecast<0.0.16,>=0.0.12, but you have coreforecast 0.0.16.\nautogluon-timeseries 1.3.0 has requirement transformers[sentencepiece]<4.50,>=4.38.0, but you have transformers 4.51.3.\n",
+    "stderr": "WARNING: The directory '/Users/noahbagazinski/Library/Caches/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.\n"
+  }
+}

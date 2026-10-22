@@ -1,0 +1,7 @@
+{
+  "copied_files": 109,
+  "python_files": 101,
+  "unchanged_ada_definitions": 130,
+  "errors": [],
+  "limitations": "Source and import audit only; no trained-model or full CUDA validation."
+}

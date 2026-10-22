@@ -1,0 +1,1153 @@
+[
+  {
+    "destination": "models/diffusion.py",
+    "source": "genisys_model_training_experiments_architecture_20261022/SystemsDesignDDPM/tools/TabDiffusionTools.py",
+    "origin": "Ada",
+    "source_sha256": "539bd1c71005d19caffa5c70721e0be6a64ebda87dd4e96f07dec5810fa6963b",
+    "copied_sha256": "4f76f0185c82fe31dd40b9435ed3bf2e842f6e7b1db277f4565202b7d2087d46",
+    "bytes": 96069,
+    "change": "unchanged_definitions_with_import_and_path_relocations",
+    "retained_definitions": [
+      "SampleResult",
+      "betas_for_alpha_bar",
+      "make_beta_schedule",
+      "timestep_embedding",
+      "log_1_min_a",
+      "Denoise_MLP_Model",
+      "Denoise_ResNet_Model",
+      "Cond_Denoise_ResNet_Model",
+      "EMA",
+      "Data_Normalizer",
+      "ConstraintClassifier",
+      "classifier_probability_hinge_gradient",
+      "cap_guidance_displacement",
+      "normalize_classifier_gradient_l2",
+      "posterior_mean_guided_sample",
+      "DiffusionEnv",
+      "Conditional_DiffusionEnv"
+    ]
+  },
+  {
+    "destination": "models/generators.py",
+    "source": "genisys_model_training_experiments_architecture_20261022/SystemsDesignDDPM/experiment_tools/first_experiment_models.py",
+    "origin": "Ada",
+    "source_sha256": "8cd6ad9d4d712aa0b3413c6577e0696f5566ff36bb7589fcddafc69d0c61f996",
+    "copied_sha256": "76152e2a14d11b485b947ce660a7ed31ba35eeb13b11ebaeda453e4360ef7979",
+    "bytes": 90247,
+    "change": "unchanged_definitions_with_import_and_path_relocations",
+    "retained_definitions": [
+      "AIOBoundaryPull",
+      "FirstExperimentGenerator",
+      "GuidanceClassifiers",
+      "_normalized_guidance_gradient",
+      "_base_environment_config",
+      "_conditional_environment",
+      "build_first_experiment_generator",
+      "_classifier_config",
+      "_fit_guidance_temperatures",
+      "_apply_guidance_temperatures",
+      "_train_one_classifier",
+      "_load_hull_guidance_training",
+      "train_or_load_guidance_classifiers"
+    ]
+  },
+  {
+    "destination": "models/critics.py",
+    "source": "genisys_model_training_experiments_architecture_20261022/SystemsDesignDDPM/experiment_tools/performance_guidance_critic.py",
+    "origin": "Ada",
+    "source_sha256": "39bc84a21094f0628cfebb7506b9932108122e7bd98c9b13763e68c364815954",
+    "copied_sha256": "26aab6d814e46734a9b16a1834ec934976881e1442caf4d36e443430bc9c3842",
+    "bytes": 19152,
+    "change": "unchanged_definitions_with_import_and_path_relocations",
+    "retained_definitions": [
+      "PerformanceCriticConfig",
+      "FullStatePerformanceCritic",
+      "PrefixPerformanceCritic",
+      "_schedule",
+      "_q_sample",
+      "_gaussian_nll",
+      "_model_config",
+      "_build_model",
+      "_array_sha256",
+      "_data_signature",
+      "train_or_load_performance_critic",
+      "load_performance_critic_checkpoint"
+    ]
+  },
+  {
+    "destination": "models/sampling.py",
+    "source": "Ada_Publication_Strengthening_Experiment/Ada_Retraining_Confirmation_5000nmi_Complete_Bundle_20261020/Retraining_Confirmation/code/reference_sources/project/Ada_Publication_Strengthening_Experiment/code/range_sampling.py",
+    "origin": "Ada_verified_recovery",
+    "source_sha256": "a76f46564b00571d75397a466853d8c8044292a72256a571b42ac43439aae18c",
+    "copied_sha256": "cc6720c622e0072c07305808959e6dcbdcb05c7a888a542227f49a4b4e64efa2",
+    "bytes": 21803,
+    "change": "unchanged_definitions_with_import_and_path_relocations",
+    "retained_definitions": [
+      "SamplingReport",
+      "_guidance_active",
+      "_physical_to_latent",
+      "_latent_to_physical",
+      "_locked_state",
+      "_masked_unit_descent",
+      "_masked_constraint_gradient",
+      "_cap_move",
+      "sample_masked_aio",
+      "sample_masked_hcddpm",
+      "sample_masked_scddpm"
+    ]
+  },
+  {
+    "destination": "models/noise.py",
+    "source": "Ada_Publication_Strengthening_Experiment/Ada_Retraining_Confirmation_5000nmi_Complete_Bundle_20261020/Retraining_Confirmation/code/reference_sources/project/Ada_Publication_Strengthening_Experiment/code/sampling.py",
+    "origin": "Ada_verified_recovery",
+    "source_sha256": "43fa41fd79254e23cc3606a8d647fe52661e7b2e17f1a674a40d94ab05514a4a",
+    "copied_sha256": "5f5a49bce1be8855c170f98251dc15cfb0078c50f123d867e3208a8692a975b1",
+    "bytes": 1231,
+    "change": "unchanged_definitions_with_import_and_path_relocations",
+    "retained_definitions": [
+      "NoiseStream"
+    ]
+  },
+  {
+    "destination": "models/classifiers.py",
+    "source": "genisys_model_training_experiments_architecture_20261022/Ada_Publication_Strengthening_Experiment/code/assets.py",
+    "origin": "Ada",
+    "source_sha256": "b90d686d331d1abc93c8430f744d25a391a02019b6bc1ed1214f650c855403c6",
+    "copied_sha256": "76dbac337a0141198adb1779b19f233eea82ff1dfa4405c81a11ee43690c26fa",
+    "bytes": 678,
+    "change": "unchanged_definitions_with_import_and_path_relocations",
+    "retained_definitions": [
+      "load_classifier"
+    ]
+  },
+  {
+    "destination": "training_utils/data.py",
+    "source": "genisys_model_training_experiments_architecture_20261022/SystemsDesignDDPM/experiment_tools/first_experiment_data.py",
+    "origin": "Ada",
+    "source_sha256": "73861ef20ac449fad1d55d3704b5f5879efc1ec45bf2173041b26494df1c7b10",
+    "copied_sha256": "af8edbfac5a3e0ccaf465442f5740ee5a8781103b79e6fa8457e83cb37ea684e",
+    "bytes": 26364,
+    "change": "unchanged_definitions_with_import_and_path_relocations",
+    "retained_definitions": [
+      "PreparedFirstExperimentData",
+      "_sha256_file",
+      "_assign_parent_splits",
+      "_condition_from_pass_values",
+      "feasible_condition_target",
+      "prepare_first_experiment_data"
+    ]
+  },
+  {
+    "destination": "training_utils/schema.py",
+    "source": "genisys_model_training_experiments_architecture_20261022/SystemsDesignDDPM/experiment_tools/parameter_schema.py",
+    "origin": "Ada",
+    "source_sha256": "e252f3760b0d70e1aeb7cd80fbeb1ad239bbdcbaaf9ca3858823557dd574b9a6",
+    "copied_sha256": "253b25bae3ae953a7d5c9ce689e054d7915082db502a5c42cf8958801e474b86",
+    "bytes": 8503,
+    "change": "unchanged_definitions_with_import_and_path_relocations",
+    "retained_definitions": [
+      "_UnclippedExperimentRegistry",
+      "PostprocessChange",
+      "V1p1ParameterSchema"
+    ]
+  },
+  {
+    "destination": "training_utils/subsystems.py",
+    "source": "genisys_model_training_experiments_architecture_20261022/SystemsDesignDDPM/experiment_tools/granular_subsystem_schema.py",
+    "origin": "Ada",
+    "source_sha256": "ae2dca628923a0293f286de5ec096b96648f6b2cba935b33b1af862acf36f819",
+    "copied_sha256": "5605318ea08d2abb07f6f3b9f2bdda24b31537e42be242fe9e5a537563d38986",
+    "bytes": 7521,
+    "change": "unchanged_definitions_with_import_and_path_relocations",
+    "retained_definitions": [
+      "parameter_subsets"
+    ]
+  },
+  {
+    "destination": "training_utils/hull_guidance_data.py",
+    "source": "genisys_model_training_experiments_architecture_20261022/SystemsDesignDDPM/experiment_tools/build_uniform_hull_guidance_data.py",
+    "origin": "Ada",
+    "source_sha256": "400533806ad80ec9e5e5a668c142d71dc21e60c71a7b914ea14d2c97eb8d1e96",
+    "copied_sha256": "76d9c5942da9cad61491fdff7bd69217eeed0b5ec2eb75b2d6be50fe99a29d49",
+    "bytes": 9455,
+    "change": "unchanged_definitions_with_import_and_path_relocations",
+    "retained_definitions": [
+      "_sha256",
+      "_constraint_map",
+      "build_uniform_hull_data"
+    ]
+  },
+  {
+    "destination": "training_utils/checkpoints.py",
+    "source": "genisys_model_training_experiments_architecture_20261022/SystemsDesignDDPM/experiment_tools/checkpoints.py",
+    "origin": "Ada",
+    "source_sha256": "7bbc9062601cef9e9dfd49223f8c0fc8f721c2f8c6b3c00894c4ab33ef27c15d",
+    "copied_sha256": "ef2527b85b9512676203425481bcb3518b7025d98299a3c3895d4b75241564c9",
+    "bytes": 8770,
+    "change": "unchanged_definitions_with_import_and_path_relocations",
+    "retained_definitions": [
+      "seed_everything",
+      "_training_environments",
+      "_rng_state",
+      "_restore_rng_state",
+      "hardware_manifest",
+      "_checkpoint_payload",
+      "_write_checkpoint_atomically",
+      "save_complete_checkpoint",
+      "save_recovery_checkpoint",
+      "load_complete_checkpoint",
+      "sampling_weight_context",
+      "_restore_named_buffers"
+    ]
+  },
+  {
+    "destination": "training_utils/training.py",
+    "source": "genisys_model_training_experiments_architecture_20261022/SystemsDesignDDPM/experiment_tools/first_experiment_pipeline.py",
+    "origin": "Ada",
+    "source_sha256": "b1f50b88ba2b5cdfe1e9d3cf26857b2515f3baa58d3045d32705f6e692e8baad",
+    "copied_sha256": "b300c1b0d957ca147a55f47792bec22a051f726f1784af8960d91560b5dcf711",
+    "bytes": 41576,
+    "change": "unchanged_definitions_with_import_and_path_relocations",
+    "retained_definitions": [
+      "_sha256_file",
+      "_write_csv_atomic",
+      "_write_json_atomic",
+      "_prepare_data",
+      "_generator_directory",
+      "_generator_signature",
+      "_training_batch_budgets",
+      "_configure_training_sampling_probabilities",
+      "_generator_data_sha256",
+      "_generator_validation_positions",
+      "_validation_payloads",
+      "_validation_denoising_loss",
+      "_train_generator_with_validation",
+      "_generator_training_is_complete",
+      "_generator_history_table",
+      "_generator_summary_payload",
+      "_generator_companions_are_complete",
+      "_finalize_generator_companions",
+      "_validate_generator_checkpoint",
+      "_aio_latent_stability_summary",
+      "_train_one_generator",
+      "_load_generator"
+    ]
+  },
+  {
+    "destination": "training_utils/batches.py",
+    "source": "genisys_model_training_experiments_architecture_20261022/SystemsDesignDDPM/experiment_tools/run_experiment.py",
+    "origin": "Ada",
+    "source_sha256": "7ca0436713508346745d0e4d447b64d359a6ff15bd7e98432616f0e56f30a358",
+    "copied_sha256": "c5dc0594ccb0d338bec5e9484d2ce7032a415e98c81b680dab08fe294aee269d",
+    "bytes": 1408,
+    "change": "unchanged_definitions_with_import_and_path_relocations",
+    "retained_definitions": [
+      "_draw_batch_indices"
+    ]
+  },
+  {
+    "destination": "training_utils/model_size.py",
+    "source": "genisys_model_training_experiments_architecture_20261022/SystemsDesignDDPM/experiment_tools/model_factory.py",
+    "origin": "Ada",
+    "source_sha256": "c8ebf0186464df23c7f5f3eed8562276ca72f4e2d999e85b26e3f582afcd606b",
+    "copied_sha256": "33d7773e865f827ffb3ea20af3d45ca6410b0692ef5e595f805ff2b77e40d386",
+    "bytes": 674,
+    "change": "unchanged_definitions_with_import_and_path_relocations",
+    "retained_definitions": [
+      "diffusion_modules",
+      "count_trainable_parameters"
+    ]
+  },
+  {
+    "destination": "training_utils/label_sampling.py",
+    "source": "genisys_model_training_experiments_architecture_20261022/SystemsDesignDDPM/experiment_tools/label_balanced_sampling.py",
+    "origin": "Ada",
+    "source_sha256": "cedcc53921e582c8af5dba9a880785a8f35ab3ab9598d0d9b20a8e6654a887ad",
+    "copied_sha256": "1764c2edb95b1eb216fb12538b9234017ca33592026959410e8ed65925016d3a",
+    "bytes": 4789,
+    "change": "unchanged_definitions_with_import_and_path_relocations",
+    "retained_definitions": [
+      "label_strata",
+      "parent_label_balanced_probabilities",
+      "environment_sampling_probabilities"
+    ]
+  },
+  {
+    "destination": "training_utils/critic_data.py",
+    "source": "genisys_model_training_experiments_architecture_20261022/SystemsDesignDDPM/experiment_tools/second_experiment_performance_data.py",
+    "origin": "Ada",
+    "source_sha256": "0ba77b786f23a62fd1d157a316535c40b51bb4933bd8c2931793a3d7f9e03e0a",
+    "copied_sha256": "e79b7f32b1556365db28063ec85d4bbabd54d62f38e0984773a6701795aa4e52",
+    "bytes": 12171,
+    "change": "unchanged_definitions_with_import_and_path_relocations",
+    "retained_definitions": [
+      "PerformanceGuidanceData",
+      "_sha256_file",
+      "_write_json_atomic",
+      "_write_csv_gzip_atomic",
+      "_write_npz_atomic",
+      "load_performance_guidance_data",
+      "_prepare_quantile_guidance_data",
+      "prepare_rfr_quantile_guidance_data"
+    ]
+  },
+  {
+    "destination": "training_utils/prefix_critic.py",
+    "source": "genisys_model_training_experiments_architecture_20261022/SystemsDesignDDPM/experiment_tools/prefix_performance_critic_training.py",
+    "origin": "Ada",
+    "source_sha256": "b123b83f9223faaee7356ad90107bc06325629fbfc1356ba3c34250262047a38",
+    "copied_sha256": "0779fd8deb811329145f374e7b8cc8f8f4927ee78db76e99b003f537222ba0f3",
+    "bytes": 14714,
+    "change": "unchanged_definitions_with_import_and_path_relocations",
+    "retained_definitions": [
+      "prefix_mask_bank",
+      "_build_prefix_model",
+      "train_or_load_prefix_performance_critic",
+      "load_prefix_performance_critic_checkpoint"
+    ]
+  },
+  {
+    "destination": "eval_utils/metrics.py",
+    "source": "genisys_model_training_experiments_architecture_20261022/SystemsDesignDDPM/experiment_tools/metrics.py",
+    "origin": "Ada",
+    "source_sha256": "55b363acfb04f611beff7190b76bc527c726eefd5a05e0b6ddc11190ca7bbba1",
+    "copied_sha256": "f86273c67d101c24a57ff59f40b9550f6b60881e036bb0e68ead981d809d347c",
+    "bytes": 4620,
+    "change": "unchanged_definitions_with_import_and_path_relocations",
+    "retained_definitions": [
+      "nondominated_mask",
+      "exact_duplicate_mask",
+      "summarize_run",
+      "constraint_feasibility_table"
+    ]
+  },
+  {
+    "destination": "eval_utils/evaluate_samples.py",
+    "source": "Ada_Publication_Strengthening_Experiment/Ada_Retraining_Confirmation_5000nmi_Complete_Bundle_20261020/Retraining_Confirmation/code/reference_sources/project/SystemsDesignDDPM/experiment_tools/evaluate_samples.py",
+    "origin": "Ada_verified_recovery",
+    "source_sha256": "3287abbcc64b9886dc9c3592b25938696a76981beb5e48b6ae8f8b46ae42a252",
+    "copied_sha256": "53be56586fff251575f720f742d4faaf2bdd1da462819f2bbd08ef3b94ab229f",
+    "bytes": 8546,
+    "change": "unchanged_definitions_with_import_and_path_relocations",
+    "retained_definitions": [
+      "_read_table",
+      "_evaluate_one",
+      "evaluate_generated_samples"
+    ]
+  },
+  {
+    "destination": "eval_utils/distances.py",
+    "source": "genisys_model_training_experiments_architecture_20261022/SystemsDesignDDPM/experiment_tools/cleaned_189_distance_metrics.py",
+    "origin": "Ada",
+    "source_sha256": "0f666b3a38bfc0d60f96d1bd4eaf074ad9678d93506c156f2c32e8cf00a59675",
+    "copied_sha256": "4fe6e3bef69e62224c70e6149b6f235bd4cd277abaad2bd53614f846a80f23da",
+    "bytes": 3547,
+    "change": "unchanged_definitions_with_import_and_path_relocations",
+    "retained_definitions": [
+      "load_feasible_training_reference",
+      "scale_cleaned_189",
+      "distance_metrics"
+    ]
+  },
+  {
+    "destination": "cad_query_tools/__init__.py",
+    "source": "cad_query_tools/__init__.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "4842d67d79250afb2edee14784379a9cda817626e0039db8fc561495d68ebb68",
+    "copied_sha256": "4842d67d79250afb2edee14784379a9cda817626e0039db8fc561495d68ebb68",
+    "bytes": 859,
+    "change": "unchanged"
+  },
+  {
+    "destination": "cad_query_tools/batch.py",
+    "source": "cad_query_tools/batch.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "9709f1f08ff5a4c6afbc820c1c3ea385ec3b2c9b0af1661d201091557d7cd303",
+    "copied_sha256": "9709f1f08ff5a4c6afbc820c1c3ea385ec3b2c9b0af1661d201091557d7cd303",
+    "bytes": 5187,
+    "change": "unchanged"
+  },
+  {
+    "destination": "cad_query_tools/builder.py",
+    "source": "cad_query_tools/builder.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "1cde140651918a8e50ac6ee749da6fb206b68995cc742b619be2dbe64c64ee25",
+    "copied_sha256": "1cde140651918a8e50ac6ee749da6fb206b68995cc742b619be2dbe64c64ee25",
+    "bytes": 35563,
+    "change": "unchanged"
+  },
+  {
+    "destination": "cad_query_tools/exporters.py",
+    "source": "cad_query_tools/exporters.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "6afb1d2a2979261e7c821a141aea9428d8c17591d9713bb14e5f5705f88d9554",
+    "copied_sha256": "6afb1d2a2979261e7c821a141aea9428d8c17591d9713bb14e5f5705f88d9554",
+    "bytes": 9490,
+    "change": "unchanged"
+  },
+  {
+    "destination": "cad_query_tools/generate.py",
+    "source": "cad_query_tools/generate.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "c32e9947623ccf4611dc144fb442a99425db65ffbb7d614002930d24f5a14073",
+    "copied_sha256": "c32e9947623ccf4611dc144fb442a99425db65ffbb7d614002930d24f5a14073",
+    "bytes": 8769,
+    "change": "unchanged"
+  },
+  {
+    "destination": "cad_query_tools/geometry.py",
+    "source": "cad_query_tools/geometry.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "0a89c0be8c0addbd02682d489592eda2ea45eb5f980413284cd7e891b9217d40",
+    "copied_sha256": "0a89c0be8c0addbd02682d489592eda2ea45eb5f980413284cd7e891b9217d40",
+    "bytes": 20918,
+    "change": "unchanged"
+  },
+  {
+    "destination": "cad_query_tools/identifiers.py",
+    "source": "cad_query_tools/identifiers.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "a7d26db4ca0d5cb9a08a57155aaa6df43199826640dc89eedf85a7f587d82cab",
+    "copied_sha256": "a7d26db4ca0d5cb9a08a57155aaa6df43199826640dc89eedf85a7f587d82cab",
+    "bytes": 2558,
+    "change": "unchanged"
+  },
+  {
+    "destination": "cad_query_tools/model.py",
+    "source": "cad_query_tools/model.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "f5088d36e06a9b91e62859b578c81d1fab2e5917f716beb106b0c89812246127",
+    "copied_sha256": "f5088d36e06a9b91e62859b578c81d1fab2e5917f716beb106b0c89812246127",
+    "bytes": 5667,
+    "change": "unchanged"
+  },
+  {
+    "destination": "cad_query_tools/parameters.py",
+    "source": "cad_query_tools/parameters.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "5a1f56a657ee501776c7c166628772917e88cf4578e43b402d9f1d1c2f7b2fe5",
+    "copied_sha256": "5a1f56a657ee501776c7c166628772917e88cf4578e43b402d9f1d1c2f7b2fe5",
+    "bytes": 36502,
+    "change": "unchanged"
+  },
+  {
+    "destination": "cad_query_tools/properties.py",
+    "source": "cad_query_tools/properties.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "0d94df039a690d86abb73b7d01afcd2f185a44f8fb4a512625556974b7f426c0",
+    "copied_sha256": "0d94df039a690d86abb73b7d01afcd2f185a44f8fb4a512625556974b7f426c0",
+    "bytes": 5364,
+    "change": "unchanged"
+  },
+  {
+    "destination": "cad_query_tools/rendering.py",
+    "source": "cad_query_tools/rendering.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "8eccf4443c7a74c5a05843878207338aed590ad36b2e00f348124b4e8610c5bb",
+    "copied_sha256": "8eccf4443c7a74c5a05843878207338aed590ad36b2e00f348124b4e8610c5bb",
+    "bytes": 9337,
+    "change": "unchanged"
+  },
+  {
+    "destination": "cad_query_tools/stiffeners.py",
+    "source": "cad_query_tools/stiffeners.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "0ba632947ae61504c65336956a8e66f7dfa595d3880b9223c42d6c2666ee009a",
+    "copied_sha256": "0ba632947ae61504c65336956a8e66f7dfa595d3880b9223c42d6c2666ee009a",
+    "bytes": 10182,
+    "change": "unchanged"
+  },
+  {
+    "destination": "cad_query_tools/system_scene_render.py",
+    "source": "cad_query_tools/system_scene_render.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "2530d9d9b95787fdaccc5e6480b4d659cc793c289dfb3a1f9deb72552c2015f5",
+    "copied_sha256": "2530d9d9b95787fdaccc5e6480b4d659cc793c289dfb3a1f9deb72552c2015f5",
+    "bytes": 22468,
+    "change": "unchanged"
+  },
+  {
+    "destination": "cad_query_tools/system_visualization_data.py",
+    "source": "cad_query_tools/system_visualization_data.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "f449b36e2cab0d4d4b1e4382bf726db2f4f7315c584d9360499bee136adf3090",
+    "copied_sha256": "f449b36e2cab0d4d4b1e4382bf726db2f4f7315c584d9360499bee136adf3090",
+    "bytes": 10930,
+    "change": "unchanged"
+  },
+  {
+    "destination": "cad_query_tools/system_visualization_geometry.py",
+    "source": "cad_query_tools/system_visualization_geometry.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "fdbccd5d60b7beeb69da51b8cd7efe83fd966e4c8bee26c5323eb5cc68dd4e85",
+    "copied_sha256": "fdbccd5d60b7beeb69da51b8cd7efe83fd966e4c8bee26c5323eb5cc68dd4e85",
+    "bytes": 25461,
+    "change": "unchanged"
+  },
+  {
+    "destination": "cad_query_tools/validate_cli.py",
+    "source": "cad_query_tools/validate_cli.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "d7493f4c953ba11f68a8fa3030acb295855518efb0f4a4e28895612562e999e1",
+    "copied_sha256": "d7493f4c953ba11f68a8fa3030acb295855518efb0f4a4e28895612562e999e1",
+    "bytes": 2213,
+    "change": "unchanged"
+  },
+  {
+    "destination": "cad_query_tools/validation.py",
+    "source": "cad_query_tools/validation.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "1d4022cde59981adf5fd5b3acad5ff2d266cdfc84c991608178b19bc57dd7ab4",
+    "copied_sha256": "1d4022cde59981adf5fd5b3acad5ff2d266cdfc84c991608178b19bc57dd7ab4",
+    "bytes": 40806,
+    "change": "unchanged"
+  },
+  {
+    "destination": "cad_query_tools/visualization_proxies.py",
+    "source": "cad_query_tools/visualization_proxies.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "1399f7bd4832d3c7f17e6246d10707e6459429d36a02f8fd2622edcdf8d33549",
+    "copied_sha256": "1399f7bd4832d3c7f17e6246d10707e6459429d36a02f8fd2622edcdf8d33549",
+    "bytes": 5342,
+    "change": "unchanged"
+  },
+  {
+    "destination": "cad_query_tools/visualize_system.py",
+    "source": "cad_query_tools/visualize_system.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "9404fb61f7e7e294f0f097461ede9642bb10c143aea08655355ffbedb4d72c3e",
+    "copied_sha256": "9404fb61f7e7e294f0f097461ede9642bb10c143aea08655355ffbedb4d72c3e",
+    "bytes": 8957,
+    "change": "unchanged"
+  },
+  {
+    "destination": "parametric_repair_tools/__init__.py",
+    "source": "genisys_model_training_experiments_architecture_20261022/parametric_repair_tools/__init__.py",
+    "origin": "Ada",
+    "source_sha256": "dc92ee492909d0363bbf169a2e6addfc4dee87c08d4e0dbf1395081bd5338a8e",
+    "copied_sha256": "dc92ee492909d0363bbf169a2e6addfc4dee87c08d4e0dbf1395081bd5338a8e",
+    "bytes": 473,
+    "change": "unchanged"
+  },
+  {
+    "destination": "parametric_repair_tools/cluster_configuration.py",
+    "source": "parametric_repair_tools/cluster_configuration.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "4b5e4085a6edc5c172ffa58696d8fc948ed897333cab4f0e4a625a2d94a84ed5",
+    "copied_sha256": "4b5e4085a6edc5c172ffa58696d8fc948ed897333cab4f0e4a625a2d94a84ed5",
+    "bytes": 2157,
+    "change": "unchanged"
+  },
+  {
+    "destination": "parametric_repair_tools/configuration.py",
+    "source": "genisys_model_training_experiments_architecture_20261022/parametric_repair_tools/configuration.py",
+    "origin": "Ada",
+    "source_sha256": "d8f3236722e4f028bc85125f1089cb643fe8db442cec56a3d3c9ac627544e535",
+    "copied_sha256": "d8f3236722e4f028bc85125f1089cb643fe8db442cec56a3d3c9ac627544e535",
+    "bytes": 4960,
+    "change": "unchanged"
+  },
+  {
+    "destination": "parametric_repair_tools/consolidated_storage.py",
+    "source": "parametric_repair_tools/consolidated_storage.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "e3120fbb86aa7d6fb852fdfec5ff065783d9ce67c3f6cd8411d787d014047636",
+    "copied_sha256": "e3120fbb86aa7d6fb852fdfec5ff065783d9ce67c3f6cd8411d787d014047636",
+    "bytes": 11013,
+    "change": "unchanged"
+  },
+  {
+    "destination": "parametric_repair_tools/dataset.py",
+    "source": "parametric_repair_tools/dataset.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "4a8b646c31194ce37e01cccf10944c9b2354e0e45b53ba9dc5492b0f2503bfc1",
+    "copied_sha256": "4a8b646c31194ce37e01cccf10944c9b2354e0e45b53ba9dc5492b0f2503bfc1",
+    "bytes": 39338,
+    "change": "unchanged"
+  },
+  {
+    "destination": "parametric_repair_tools/evaluation.py",
+    "source": "parametric_repair_tools/evaluation.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "123f5ad8f6fb22d7374cadc3781ab76deed5d953232cf49d41f9017eed913944",
+    "copied_sha256": "123f5ad8f6fb22d7374cadc3781ab76deed5d953232cf49d41f9017eed913944",
+    "bytes": 6391,
+    "change": "unchanged"
+  },
+  {
+    "destination": "parametric_repair_tools/export_repair_artifacts.py",
+    "source": "parametric_repair_tools/export_repair_artifacts.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "d52c078ca5c117da823e70d6c296f38db3999ff4b1ab58e86c2724b1b86393be",
+    "copied_sha256": "d52c078ca5c117da823e70d6c296f38db3999ff4b1ab58e86c2724b1b86393be",
+    "bytes": 31529,
+    "change": "unchanged"
+  },
+  {
+    "destination": "parametric_repair_tools/hull_domain_repairs.py",
+    "source": "parametric_repair_tools/hull_domain_repairs.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "7c00dfe906715520b7586824086ebe5a6bb7650505bab0322762b5cf80fd85f6",
+    "copied_sha256": "7c00dfe906715520b7586824086ebe5a6bb7650505bab0322762b5cf80fd85f6",
+    "bytes": 28252,
+    "change": "unchanged"
+  },
+  {
+    "destination": "parametric_repair_tools/parameters.py",
+    "source": "genisys_model_training_experiments_architecture_20261022/parametric_repair_tools/parameters.py",
+    "origin": "Ada",
+    "source_sha256": "b5058c79437828e652c8eae6ca4c15bb345f63e0a0a8fd27ca0734410b5eec7b",
+    "copied_sha256": "b5058c79437828e652c8eae6ca4c15bb345f63e0a0a8fd27ca0734410b5eec7b",
+    "bytes": 16890,
+    "change": "unchanged"
+  },
+  {
+    "destination": "parametric_repair_tools/pipeline.py",
+    "source": "parametric_repair_tools/pipeline.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "e6573650a228a68d236b820a745b5ac96ec70db0a993ef23aedb42ab27daf317",
+    "copied_sha256": "e6573650a228a68d236b820a745b5ac96ec70db0a993ef23aedb42ab27daf317",
+    "bytes": 34587,
+    "change": "unchanged"
+  },
+  {
+    "destination": "parametric_repair_tools/prepare_candidate_cluster_batch.py",
+    "source": "parametric_repair_tools/prepare_candidate_cluster_batch.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "84bd73d472fd3bd0c5f05a35fab809c9f79390390aea879bc7134613ae9a5fa2",
+    "copied_sha256": "84bd73d472fd3bd0c5f05a35fab809c9f79390390aea879bc7134613ae9a5fa2",
+    "bytes": 7685,
+    "change": "unchanged"
+  },
+  {
+    "destination": "parametric_repair_tools/registry.py",
+    "source": "parametric_repair_tools/registry.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "af843ec7358dd169ab8dab35a2c33199d58affe2f8664598c5cf5e2e3e22f40d",
+    "copied_sha256": "af843ec7358dd169ab8dab35a2c33199d58affe2f8664598c5cf5e2e3e22f40d",
+    "bytes": 29465,
+    "change": "unchanged"
+  },
+  {
+    "destination": "parametric_repair_tools/repair_methods.py",
+    "source": "parametric_repair_tools/repair_methods.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "c2790e257942a08f722eb77bdac308977363cd79b72459337d3bd8fa9cab3ee7",
+    "copied_sha256": "c2790e257942a08f722eb77bdac308977363cd79b72459337d3bd8fa9cab3ee7",
+    "bytes": 131304,
+    "change": "unchanged"
+  },
+  {
+    "destination": "parametric_repair_tools/run_below_median_parallel.py",
+    "source": "parametric_repair_tools/run_below_median_parallel.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "8a129763b2274038b17e0b4e6862b98b0ff14c023010379ec1b0687206c94c1e",
+    "copied_sha256": "8a129763b2274038b17e0b4e6862b98b0ff14c023010379ec1b0687206c94c1e",
+    "bytes": 8513,
+    "change": "unchanged"
+  },
+  {
+    "destination": "parametric_repair_tools/run_candidate_cluster_array.py",
+    "source": "parametric_repair_tools/run_candidate_cluster_array.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "f66b3703d593fa02cbdbb431f62610001534d5ee7867d7e23f1b65b94f2d1d77",
+    "copied_sha256": "f66b3703d593fa02cbdbb431f62610001534d5ee7867d7e23f1b65b94f2d1d77",
+    "bytes": 8043,
+    "change": "unchanged"
+  },
+  {
+    "destination": "parametric_repair_tools/run_repair_pipeline.py",
+    "source": "parametric_repair_tools/run_repair_pipeline.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "0a001da451ed90324ebc48fc9206b8e022eccd10c899ecae806d50994daa6e4c",
+    "copied_sha256": "0a001da451ed90324ebc48fc9206b8e022eccd10c899ecae806d50994daa6e4c",
+    "bytes": 2298,
+    "change": "unchanged"
+  },
+  {
+    "destination": "parametric_repair_tools/validate_repair_outputs.py",
+    "source": "parametric_repair_tools/validate_repair_outputs.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "070145100266cccf865c5a2a4fff24499f8c9f74bb6be1230077b6b5c6a5e481",
+    "copied_sha256": "070145100266cccf865c5a2a4fff24499f8c9f74bb6be1230077b6b5c6a5e481",
+    "bytes": 11680,
+    "change": "unchanged"
+  },
+  {
+    "destination": "tools/ABS_Part3_Constraints.py",
+    "source": "tools/ABS_Part3_Constraints.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "e415bd9a8e9b7ad57250085c6f2ec11392a65e347c1d81d63524fceaa35fb650",
+    "copied_sha256": "e415bd9a8e9b7ad57250085c6f2ec11392a65e347c1d81d63524fceaa35fb650",
+    "bytes": 40234,
+    "change": "unchanged"
+  },
+  {
+    "destination": "tools/CargoAllocation.py",
+    "source": "tools/CargoAllocation.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "ec9f59fa48e9d8639dc30852d38ff9e6727e96def450fee692de3bf56f1ac9fa",
+    "copied_sha256": "ec9f59fa48e9d8639dc30852d38ff9e6727e96def450fee692de3bf56f1ac9fa",
+    "bytes": 12902,
+    "change": "unchanged"
+  },
+  {
+    "destination": "tools/CargoHolds.py",
+    "source": "tools/CargoHolds.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "3daffacc7181947ef9aa1745baf589909d526cd66ea26564b4a20da1550582f2",
+    "copied_sha256": "3daffacc7181947ef9aa1745baf589909d526cd66ea26564b4a20da1550582f2",
+    "bytes": 40714,
+    "change": "unchanged"
+  },
+  {
+    "destination": "tools/ConstraintIdentity.py",
+    "source": "genisys_model_training_experiments_architecture_20261022/tools/ConstraintIdentity.py",
+    "origin": "Ada",
+    "source_sha256": "8df62565b7b5cc17d03942405c5e476fee1f6701f01f464800a2c37f596b6daf",
+    "copied_sha256": "8df62565b7b5cc17d03942405c5e476fee1f6701f01f464800a2c37f596b6daf",
+    "bytes": 9250,
+    "change": "unchanged"
+  },
+  {
+    "destination": "tools/ConstraintIntegration.py",
+    "source": "tools/ConstraintIntegration.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "ce6fdd739166bb4b52313d5c1f4b7db7f1f4f2f9eff7a022692bf316034c01e7",
+    "copied_sha256": "ce6fdd739166bb4b52313d5c1f4b7db7f1f4f2f9eff7a022692bf316034c01e7",
+    "bytes": 39009,
+    "change": "unchanged"
+  },
+  {
+    "destination": "tools/EEDI.py",
+    "source": "tools/EEDI.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "c1cc509c8f5930f73bdf0dfacbbc9ceff56f89b654feecde7f6b467cdf020a0c",
+    "copied_sha256": "c1cc509c8f5930f73bdf0dfacbbc9ceff56f89b654feecde7f6b467cdf020a0c",
+    "bytes": 22143,
+    "change": "unchanged"
+  },
+  {
+    "destination": "tools/EarlyDesignMasses.py",
+    "source": "tools/EarlyDesignMasses.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "0e74a6098960026ed1a5aedbc71a7cda2c051054ac512b686191870c86a15158",
+    "copied_sha256": "0e74a6098960026ed1a5aedbc71a7cda2c051054ac512b686191870c86a15158",
+    "bytes": 7198,
+    "change": "unchanged"
+  },
+  {
+    "destination": "tools/EconomicInputs.py",
+    "source": "tools/EconomicInputs.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "2117c1089cb4d7f9a80bfa964e49aab51b5caca1a6ef652c4acf2647adcc528a",
+    "copied_sha256": "2117c1089cb4d7f9a80bfa964e49aab51b5caca1a6ef652c4acf2647adcc528a",
+    "bytes": 2723,
+    "change": "unchanged"
+  },
+  {
+    "destination": "tools/EvaluationErrors.py",
+    "source": "tools/EvaluationErrors.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "15610451f04637ba3bfb6bd0309f761759393aee9f906173cdc21fda92626887",
+    "copied_sha256": "15610451f04637ba3bfb6bd0309f761759393aee9f906173cdc21fda92626887",
+    "bytes": 3058,
+    "change": "unchanged"
+  },
+  {
+    "destination": "tools/FiniteAngleStability.py",
+    "source": "tools/FiniteAngleStability.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "e53c694f1ec40ab2789a16ce83c83058fdbf571bccc92a5d2825d3068c8fe092",
+    "copied_sha256": "e53c694f1ec40ab2789a16ce83c83058fdbf571bccc92a5d2825d3068c8fe092",
+    "bytes": 23843,
+    "change": "unchanged"
+  },
+  {
+    "destination": "tools/HatchCovers.py",
+    "source": "tools/HatchCovers.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "30221e85de7875304f4d473922f61a26935181782a434cd4f7475d18c4e7b689",
+    "copied_sha256": "30221e85de7875304f4d473922f61a26935181782a434cd4f7475d18c4e7b689",
+    "bytes": 7034,
+    "change": "unchanged"
+  },
+  {
+    "destination": "tools/HullDesign.py",
+    "source": "tools/HullDesign.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "8150bab9e2700bb34b63f1d7cd46902c90c3abeb1b21a8c926e288c3430fde50",
+    "copied_sha256": "8150bab9e2700bb34b63f1d7cd46902c90c3abeb1b21a8c926e288c3430fde50",
+    "bytes": 30380,
+    "change": "unchanged"
+  },
+  {
+    "destination": "tools/HullParameterization.py",
+    "source": "tools/HullParameterization.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "c38e5d9e6082ecb70e0ff59d785fb03951b04c787918fcdf08a680334b73454f",
+    "copied_sha256": "c38e5d9e6082ecb70e0ff59d785fb03951b04c787918fcdf08a680334b73454f",
+    "bytes": 95853,
+    "change": "unchanged"
+  },
+  {
+    "destination": "tools/Hull_constraints_list.csv",
+    "source": "tools/Hull_constraints_list.csv",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "75807108d9068b5151d790d2c1010f76d3d505e45d1d0455545e90336da38f15",
+    "copied_sha256": "75807108d9068b5151d790d2c1010f76d3d505e45d1d0455545e90336da38f15",
+    "bytes": 3575,
+    "change": "unchanged"
+  },
+  {
+    "destination": "tools/Hydrostatics.py",
+    "source": "tools/Hydrostatics.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "b1d5a642feea1df85f33946217fcf07bea71133ee78ea456d41161e2c8076106",
+    "copied_sha256": "b1d5a642feea1df85f33946217fcf07bea71133ee78ea456d41161e2c8076106",
+    "bytes": 54915,
+    "change": "unchanged"
+  },
+  {
+    "destination": "tools/Hydrostatics_v1p1.py",
+    "source": "tools/Hydrostatics_v1p1.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "f148c36f41b72134c30bf8b2e4615716c1200470b1d9d64ac58335010382f114",
+    "copied_sha256": "f148c36f41b72134c30bf8b2e4615716c1200470b1d9d64ac58335010382f114",
+    "bytes": 41419,
+    "change": "unchanged"
+  },
+  {
+    "destination": "tools/LoadingConditionLoads.py",
+    "source": "tools/LoadingConditionLoads.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "1efe2d8d73a17a8c83b72f8ca55b9fa9ef2c7aabfb9ae4e56d3a0d0970d154de",
+    "copied_sha256": "1efe2d8d73a17a8c83b72f8ca55b9fa9ef2c7aabfb9ae4e56d3a0d0970d154de",
+    "bytes": 15920,
+    "change": "unchanged"
+  },
+  {
+    "destination": "tools/LoadingConditions.py",
+    "source": "tools/LoadingConditions.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "271cb02a1e2276eb7d6f9ba32dea2dd6264cceca54f063f150741f62dbcd8e3c",
+    "copied_sha256": "271cb02a1e2276eb7d6f9ba32dea2dd6264cceca54f063f150741f62dbcd8e3c",
+    "bytes": 7961,
+    "change": "unchanged"
+  },
+  {
+    "destination": "tools/Loading_Condition_Constraints_v1p1.py",
+    "source": "tools/Loading_Condition_Constraints_v1p1.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "65172cc731bed5865def4255aa5e0903f530305048e75cd53dd2cf4088a04b29",
+    "copied_sha256": "65172cc731bed5865def4255aa5e0903f530305048e75cd53dd2cf4088a04b29",
+    "bytes": 10422,
+    "change": "unchanged"
+  },
+  {
+    "destination": "tools/MVR_Longitudinal_Shear.py",
+    "source": "tools/MVR_Longitudinal_Shear.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "ed22299ff18633e8fc36c31b36e389ef551f9fa90d34a416e34dc5604832cd0b",
+    "copied_sha256": "ed22299ff18633e8fc36c31b36e389ef551f9fa90d34a416e34dc5604832cd0b",
+    "bytes": 20337,
+    "change": "unchanged"
+  },
+  {
+    "destination": "tools/ModifiedMichellCw.py",
+    "source": "tools/ModifiedMichellCw.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "4badb7ea3e1ecf95f32ec36cbd99f072fdcaa8372358e07144cbe384d29e478b",
+    "copied_sha256": "4badb7ea3e1ecf95f32ec36cbd99f072fdcaa8372358e07144cbe384d29e478b",
+    "bytes": 7858,
+    "change": "unchanged"
+  },
+  {
+    "destination": "tools/Parametric_Structure_Eval.py",
+    "source": "tools/Parametric_Structure_Eval.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "98c8659618b9631ad59291c5c0696189138927ada91f11dbd62449c66c22648f",
+    "copied_sha256": "98c8659618b9631ad59291c5c0696189138927ada91f11dbd62449c66c22648f",
+    "bytes": 49406,
+    "change": "unchanged"
+  },
+  {
+    "destination": "tools/PoweringInputs.py",
+    "source": "tools/PoweringInputs.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "22d983a709277dd26a2d5ad224772d2209cf8d96149393256a83e67b2e74dc42",
+    "copied_sha256": "22d983a709277dd26a2d5ad224772d2209cf8d96149393256a83e67b2e74dc42",
+    "bytes": 2380,
+    "change": "unchanged"
+  },
+  {
+    "destination": "tools/Powering_Constraints_v1p1.py",
+    "source": "tools/Powering_Constraints_v1p1.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "749c474f5b838bdeee6582baaf0a502714153e8dfcd48f246efc476758998cc0",
+    "copied_sha256": "749c474f5b838bdeee6582baaf0a502714153e8dfcd48f246efc476758998cc0",
+    "bytes": 12002,
+    "change": "unchanged"
+  },
+  {
+    "destination": "tools/SOLASSubdivisionAndDetectors.py",
+    "source": "tools/SOLASSubdivisionAndDetectors.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "b00f72e56ee8427d8f0f75414edaefcdd1a24f7f75eec366174a99b72f041697",
+    "copied_sha256": "b00f72e56ee8427d8f0f75414edaefcdd1a24f7f75eec366174a99b72f041697",
+    "bytes": 25080,
+    "change": "unchanged"
+  },
+  {
+    "destination": "tools/ShipSystemDesign.py",
+    "source": "tools/ShipSystemDesign.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "ca1702c89c142d3fe98b81b7eee0141f868582c7c8712f524f45ab482e89c568",
+    "copied_sha256": "ca1702c89c142d3fe98b81b7eee0141f868582c7c8712f524f45ab482e89c568",
+    "bytes": 70306,
+    "change": "unchanged"
+  },
+  {
+    "destination": "tools/ShipSystemDesignParameters.csv",
+    "source": "genisys_model_training_experiments_architecture_20261022/tools/ShipSystemDesignParameters.csv",
+    "origin": "Ada",
+    "source_sha256": "533488154bc66bae0f1fe4a2d4ba4a41502ffa6fef24973d3748bace12764d43",
+    "copied_sha256": "533488154bc66bae0f1fe4a2d4ba4a41502ffa6fef24973d3748bace12764d43",
+    "bytes": 10999,
+    "change": "unchanged"
+  },
+  {
+    "destination": "tools/StructureCalcs.py",
+    "source": "tools/StructureCalcs.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "c532b92a42b7d8037b44b93857d978e9a227670874ae888917edca747b79aab8",
+    "copied_sha256": "c532b92a42b7d8037b44b93857d978e9a227670874ae888917edca747b79aab8",
+    "bytes": 103112,
+    "change": "unchanged"
+  },
+  {
+    "destination": "tools/Structure_Constraints_v1p1.py",
+    "source": "tools/Structure_Constraints_v1p1.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "3e53ce77f84d5b734da4921dfa4cfc0614ff6beb83b7d18ae0810dd32e207ccd",
+    "copied_sha256": "3e53ce77f84d5b734da4921dfa4cfc0614ff6beb83b7d18ae0810dd32e207ccd",
+    "bytes": 70353,
+    "change": "unchanged"
+  },
+  {
+    "destination": "tools/System_Feasibility_Constraints_v1p1.py",
+    "source": "tools/System_Feasibility_Constraints_v1p1.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "c62cb6e31c178901ed2dc22477de3af6bd2946fa0e56db4c3de160306169be34",
+    "copied_sha256": "c62cb6e31c178901ed2dc22477de3af6bd2946fa0e56db4c3de160306169be34",
+    "bytes": 5216,
+    "change": "unchanged"
+  },
+  {
+    "destination": "tools/TypeBFreeboard.py",
+    "source": "tools/TypeBFreeboard.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "25c1adde75778748e011f43fe882096620697ef228957812efc68c7b515f4b7e",
+    "copied_sha256": "25c1adde75778748e011f43fe882096620697ef228957812efc68c7b515f4b7e",
+    "bytes": 10649,
+    "change": "unchanged"
+  },
+  {
+    "destination": "tools/UprightStability.py",
+    "source": "tools/UprightStability.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "e7b43f32d5f6252ec3d078d531688351607e6dfa43aa731b7af8a6a981e13a92",
+    "copied_sha256": "e7b43f32d5f6252ec3d078d531688351607e6dfa43aa731b7af8a6a981e13a92",
+    "bytes": 14303,
+    "change": "unchanged"
+  },
+  {
+    "destination": "tools/V1p1Dataset.py",
+    "source": "genisys_model_training_experiments_architecture_20261022/tools/V1p1Dataset.py",
+    "origin": "Ada",
+    "source_sha256": "aca47e972b40aaebd279029d62312066dfa810c438fde0fe1d2b8ffe5fa682a7",
+    "copied_sha256": "aca47e972b40aaebd279029d62312066dfa810c438fde0fe1d2b8ffe5fa682a7",
+    "bytes": 18035,
+    "change": "unchanged"
+  },
+  {
+    "destination": "tools/Weights.py",
+    "source": "tools/Weights.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "00b931013ffda9b9b318f4540cf78a25d5a81c69a97d3d339f330211f1ab6204",
+    "copied_sha256": "00b931013ffda9b9b318f4540cf78a25d5a81c69a97d3d339f330211f1ab6204",
+    "bytes": 50105,
+    "change": "unchanged"
+  },
+  {
+    "destination": "Generate_V1p1_Design_Batch.py",
+    "source": "Generate_V1p1_Design_Batch.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "501cdf591afca1487589816579e60dbc67f00a4d5aefbb3af6b1173cc8327c3b",
+    "copied_sha256": "501cdf591afca1487589816579e60dbc67f00a4d5aefbb3af6b1173cc8327c3b",
+    "bytes": 17510,
+    "change": "unchanged"
+  },
+  {
+    "destination": "Run_V1p1_System_Evaluation_Batch.py",
+    "source": "Run_V1p1_System_Evaluation_Batch.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "a5b80b87be137aabe1cc94fa4f6200964c9c3d13aabf0a5d0d43117f8791ae10",
+    "copied_sha256": "a5b80b87be137aabe1cc94fa4f6200964c9c3d13aabf0a5d0d43117f8791ae10",
+    "bytes": 89726,
+    "change": "unchanged"
+  },
+  {
+    "destination": "Run_ShipSystems_Eval_Parallel_v1p1.py",
+    "source": "Run_ShipSystems_Eval_Parallel_v1p1.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "7e880b389052fa58ec598336003054697ca4245806554e150dc0f91d905a5120",
+    "copied_sha256": "7e880b389052fa58ec598336003054697ca4245806554e150dc0f91d905a5120",
+    "bytes": 5703,
+    "change": "unchanged"
+  },
+  {
+    "destination": "Compile_V1p1_Dataset.py",
+    "source": "genisys_model_training_experiments_architecture_20261022/Compile_V1p1_Dataset.py",
+    "origin": "Ada",
+    "source_sha256": "a20964642adc01d8f7c7157278d6529af3ad2e3fa39e8f5320162278bea36fbb",
+    "copied_sha256": "a20964642adc01d8f7c7157278d6529af3ad2e3fa39e8f5320162278bea36fbb",
+    "bytes": 73525,
+    "change": "unchanged"
+  },
+  {
+    "destination": "Compile_V1p1_Dataset_And_Select_Candidates.py",
+    "source": "genisys_model_training_experiments_architecture_20261022/Compile_V1p1_Dataset_And_Select_Candidates.py",
+    "origin": "Ada",
+    "source_sha256": "90ed361e92226c8ab03ba289c3a991fd5f01fd1b15df027cf1afc5e3f5b48cef",
+    "copied_sha256": "90ed361e92226c8ab03ba289c3a991fd5f01fd1b15df027cf1afc5e3f5b48cef",
+    "bytes": 9554,
+    "change": "unchanged"
+  },
+  {
+    "destination": "Compile_V1p1_Repaired_Dataset.py",
+    "source": "genisys_model_training_experiments_architecture_20261022/Compile_V1p1_Repaired_Dataset.py",
+    "origin": "Ada",
+    "source_sha256": "8a5a61c792a7ed72d54b7c87e8d595b594eb49199209d456992a155f9403f0e8",
+    "copied_sha256": "8a5a61c792a7ed72d54b7c87e8d595b594eb49199209d456992a155f9403f0e8",
+    "bytes": 5581,
+    "change": "unchanged"
+  },
+  {
+    "destination": "Compile_V1p1_Repaired_As_Dataset.py",
+    "source": "Compile_V1p1_Repaired_As_Dataset.py",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "b4f67e9b00a67461276ff418b12b5cb707fc56ca70d422e5eabbbf164110dc36",
+    "copied_sha256": "b4f67e9b00a67461276ff418b12b5cb707fc56ca70d422e5eabbbf164110dc36",
+    "bytes": 17103,
+    "change": "unchanged"
+  },
+  {
+    "destination": "Build_Unified_V1p1_Training_Data.py",
+    "source": "genisys_model_training_experiments_architecture_20261022/Build_Unified_V1p1_Training_Data.py",
+    "origin": "Ada",
+    "source_sha256": "95fc677444b4b8ece8006d59b72b8068f7e198c57e2301c43e612a8dd0d40509",
+    "copied_sha256": "95fc677444b4b8ece8006d59b72b8068f7e198c57e2301c43e612a8dd0d40509",
+    "bytes": 13168,
+    "change": "unchanged"
+  },
+  {
+    "destination": "Build_Constraint_Subsystem_Mapping.py",
+    "source": "genisys_model_training_experiments_architecture_20261022/Build_Constraint_Subsystem_Mapping.py",
+    "origin": "Ada",
+    "source_sha256": "c00c3ffa8553b00a06268e600808e9dacd7e18b14c87de52883d825acc127901",
+    "copied_sha256": "c00c3ffa8553b00a06268e600808e9dacd7e18b14c87de52883d825acc127901",
+    "bytes": 13346,
+    "change": "unchanged"
+  },
+  {
+    "destination": "StructuralParameterList_V2.csv",
+    "source": "StructuralParameterList_V2.csv",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "73ba6fbbee76437466b80f2f0c0c541238fd7888ff1ed454894009c63292fac5",
+    "copied_sha256": "73ba6fbbee76437466b80f2f0c0c541238fd7888ff1ed454894009c63292fac5",
+    "bytes": 7073,
+    "change": "unchanged"
+  },
+  {
+    "destination": "GenISys_Env.yml",
+    "source": "GenISys_Env.yml",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "b45d05b3b0d287c31083c7335c693c1345c51cbe97f7a35944638d85e8bcf795",
+    "copied_sha256": "b45d05b3b0d287c31083c7335c693c1345c51cbe97f7a35944638d85e8bcf795",
+    "bytes": 11551,
+    "change": "unchanged"
+  },
+  {
+    "destination": "GenISys_Cluster_Env.yml",
+    "source": "GenISys_Cluster_Env.yml",
+    "origin": "working_design_and_evaluation",
+    "source_sha256": "54da4c6642d543fcf099064ce7994ccce76c74a2c82f36638a066869cdd710e5",
+    "copied_sha256": "54da4c6642d543fcf099064ce7994ccce76c74a2c82f36638a066869cdd710e5",
+    "bytes": 816,
+    "change": "unchanged"
+  },
+  {
+    "destination": "GenISys_CUDA_Env.yml",
+    "source": "genisys_model_training_experiments_architecture_20261022/SystemsDesignDDPM/GenISys_DDPM_4090_Env.yml",
+    "origin": "Ada",
+    "source_sha256": "885c507edc06150ec27a1eb1d89ca87e10f37b3c52a4b0e455ccf2b59e22902f",
+    "copied_sha256": "885c507edc06150ec27a1eb1d89ca87e10f37b3c52a4b0e455ccf2b59e22902f",
+    "bytes": 841,
+    "change": "unchanged"
+  },
+  {
+    "destination": "training_utils/subsystem_maps/Parameter_Map.csv",
+    "source": "genisys_model_training_experiments_architecture_20261022/SystemsDesignDDPM/configs/granular_subsystems/Parameter_Map.csv",
+    "origin": "Ada",
+    "source_sha256": "7c651c4853b7e96a228cff38d3ec32be7770531d2c6cecf9372c551f4b727595",
+    "copied_sha256": "7c651c4853b7e96a228cff38d3ec32be7770531d2c6cecf9372c551f4b727595",
+    "bytes": 12435,
+    "change": "unchanged"
+  },
+  {
+    "destination": "training_utils/subsystem_maps/Constraint_Map.csv",
+    "source": "genisys_model_training_experiments_architecture_20261022/SystemsDesignDDPM/configs/granular_subsystems/Constraint_Map.csv",
+    "origin": "Ada",
+    "source_sha256": "3bbbe1b83f06e6ea2f7b29d0e74fe0a94d3e03a28524ca01017aa3a3d0935ae4",
+    "copied_sha256": "3bbbe1b83f06e6ea2f7b29d0e74fe0a94d3e03a28524ca01017aa3a3d0935ae4",
+    "bytes": 50863,
+    "change": "unchanged"
+  },
+  {
+    "destination": "training_utils/subsystem_maps/Subsystem_Summary.csv",
+    "source": "genisys_model_training_experiments_architecture_20261022/SystemsDesignDDPM/configs/granular_subsystems/Subsystem_Summary.csv",
+    "origin": "Ada",
+    "source_sha256": "6ef6c74fdb123c9569ae7e51d5e9d15b5b17cd6b4b5d785c2566af68e782fdf8",
+    "copied_sha256": "6ef6c74fdb123c9569ae7e51d5e9d15b5b17cd6b4b5d785c2566af68e782fdf8",
+    "bytes": 10820,
+    "change": "unchanged"
+  },
+  {
+    "destination": "figures/fig_2.pdf",
+    "source": "GenISys_Preprint/figures/fig_2.pdf",
+    "origin": "publication_figure",
+    "source_sha256": "0be5d9b4747b7e7c1613ea00ef10aa0171f9efb5fe0da10506863c2c9b9f7912",
+    "copied_sha256": "0be5d9b4747b7e7c1613ea00ef10aa0171f9efb5fe0da10506863c2c9b9f7912",
+    "bytes": 60761,
+    "change": "unchanged"
+  },
+  {
+    "destination": "figures/fig_4.png",
+    "source": "GenISys_Preprint/figures/fig_4.png",
+    "origin": "publication_figure",
+    "source_sha256": "47f75672c1f71ad645f3078d3d8831b565c68fd6a8b28077311faa2f6429fa6e",
+    "copied_sha256": "47f75672c1f71ad645f3078d3d8831b565c68fd6a8b28077311faa2f6429fa6e",
+    "bytes": 1360274,
+    "change": "unchanged"
+  },
+  {
+    "destination": "figures/fig_H1.png",
+    "source": "GenISys_Preprint/figures/fig_H1.png",
+    "origin": "publication_figure",
+    "source_sha256": "39a9bdf170436fa6a98b95926a74f83648a53db65c4a87b699152610dc6f8320",
+    "copied_sha256": "39a9bdf170436fa6a98b95926a74f83648a53db65c4a87b699152610dc6f8320",
+    "bytes": 843435,
+    "change": "unchanged"
+  }
+]

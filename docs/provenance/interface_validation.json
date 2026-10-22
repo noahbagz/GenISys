@@ -1,0 +1,76 @@
+{
+  "imports": [
+    {
+      "module": "models.generators",
+      "path": "models/generators.py"
+    },
+    {
+      "module": "models.critics",
+      "path": "models/critics.py"
+    },
+    {
+      "module": "models.sampling",
+      "path": "models/sampling.py"
+    },
+    {
+      "module": "models.noise",
+      "path": "models/noise.py"
+    },
+    {
+      "module": "models.classifiers",
+      "path": "models/classifiers.py"
+    },
+    {
+      "module": "training_utils.training",
+      "path": "training_utils/training.py"
+    },
+    {
+      "module": "training_utils.critic_data",
+      "path": "training_utils/critic_data.py"
+    },
+    {
+      "module": "training_utils.prefix_critic",
+      "path": "training_utils/prefix_critic.py"
+    },
+    {
+      "module": "eval_utils.evaluate_samples",
+      "path": "eval_utils/evaluate_samples.py"
+    },
+    {
+      "module": "eval_utils.distances",
+      "path": "eval_utils/distances.py"
+    },
+    {
+      "module": "tools.ShipSystemDesign",
+      "path": "tools/ShipSystemDesign.py"
+    },
+    {
+      "module": "cad_query_tools.generate",
+      "path": "cad_query_tools/generate.py"
+    }
+  ],
+  "source_validation": "source_validation.json",
+  "cli_help": "passed",
+  "cpu_interface_checks": {
+    "fixture_rows": 2560,
+    "published_settings_modified": false,
+    "architectures_built": [
+      "ddpm",
+      "hcddpm",
+      "scddpm"
+    ],
+    "one_epoch_ddpm_train_and_checkpoint_reload": "passed",
+    "unguided_ddpm_133_to_189_sample": "passed",
+    "5000_nmi_range_lock": "passed",
+    "one_epoch_hcddpm_train": "stopped_at_original_nonfinite_sampling_stability_gate",
+    "scddpm_train": "not_executed_after_hcddpm_stop"
+  },
+  "not_validated": [
+    "full CUDA training",
+    "full guidance classifier/critic training",
+    "RFR-guided production",
+    "ship evaluation batch",
+    "CAD rendering",
+    "Ada trained model results"
+  ]
+}

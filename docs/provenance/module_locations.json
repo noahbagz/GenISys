@@ -1,0 +1,27 @@
+{
+  "module_locations": {
+    "SystemsDesignDDPM.tools.TabDiffusionTools": "models.diffusion",
+    "SystemsDesignDDPM.experiment_tools.first_experiment_models": "models.generators",
+    "SystemsDesignDDPM.experiment_tools.performance_guidance_critic": "models.critics",
+    "Ada_Publication_Strengthening_Experiment.code.range_sampling": "models.sampling",
+    "Ada_Publication_Strengthening_Experiment.code.sampling": "models.noise",
+    "Ada_Publication_Strengthening_Experiment.code.assets": "models.classifiers",
+    "SystemsDesignDDPM.experiment_tools.first_experiment_data": "training_utils.data",
+    "SystemsDesignDDPM.experiment_tools.parameter_schema": "training_utils.schema",
+    "SystemsDesignDDPM.experiment_tools.granular_subsystem_schema": "training_utils.subsystems",
+    "SystemsDesignDDPM.experiment_tools.build_uniform_hull_guidance_data": "training_utils.hull_guidance_data",
+    "SystemsDesignDDPM.experiment_tools.checkpoints": "training_utils.checkpoints",
+    "SystemsDesignDDPM.experiment_tools.first_experiment_pipeline": "training_utils.training",
+    "SystemsDesignDDPM.experiment_tools.run_experiment": "training_utils.batches",
+    "SystemsDesignDDPM.experiment_tools.model_factory": "training_utils.model_size",
+    "SystemsDesignDDPM.experiment_tools.label_balanced_sampling": "training_utils.label_sampling",
+    "SystemsDesignDDPM.experiment_tools.second_experiment_performance_data": "training_utils.critic_data",
+    "SystemsDesignDDPM.experiment_tools.prefix_performance_critic_training": "training_utils.prefix_critic",
+    "SystemsDesignDDPM.experiment_tools.metrics": "eval_utils.metrics",
+    "SystemsDesignDDPM.experiment_tools.evaluate_samples": "eval_utils.evaluate_samples",
+    "SystemsDesignDDPM.experiment_tools.cleaned_189_distance_metrics": "eval_utils.distances"
+  },
+  "path_locations": {
+    "SystemsDesignDDPM/configs/granular_subsystems/": "training_utils/subsystem_maps/"
+  }
+}

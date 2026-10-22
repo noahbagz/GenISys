@@ -1,0 +1,8 @@
+{
+  "defaults_source": "genisys_model_training_experiments_architecture_20261022/SystemsDesignDDPM/experiment_tools/first_experiment_pipeline.py",
+  "defaults_source_sha256": "b1f50b88ba2b5cdfe1e9d3cf26857b2515f3baa58d3045d32705f6e692e8baad",
+  "recipe_source": "genisys_model_training_experiments_architecture_20261022/SystemsDesignDDPM/configs/first_experiment_cshipgen_hull_tdim256_clf128_cap_v4.json",
+  "recipe_source_sha256": "caacc36edec65922a2786bb3b9fa85cc6d2cdc1249a7cb70b0ce55e942dae84e",
+  "settings_sha256": "c34887d561fd6af114125c16f21ed06283e4e11176ddbc4e628b8bff8c2b1b55",
+  "change": "Merged existing defaults and recipe; omitted experiment-only locations."
+}
