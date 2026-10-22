@@ -1149,5 +1149,41 @@
     "copied_sha256": "39a9bdf170436fa6a98b95926a74f83648a53db65c4a87b699152610dc6f8320",
     "bytes": 843435,
     "change": "unchanged"
+  },
+  {
+    "destination": "figures/fig_1.png",
+    "source": "GenISys_Preprint/unused_figures/fig_1.png",
+    "origin": "publication_figure",
+    "source_sha256": "4fc343bf99eddd5cc2b627f0da3cfdc6cb6289b090b6da0f0e1fed796d0f178f",
+    "copied_sha256": "4fc343bf99eddd5cc2b627f0da3cfdc6cb6289b090b6da0f0e1fed796d0f178f",
+    "bytes": 695307,
+    "change": "unchanged"
+  },
+  {
+    "destination": "figures/fig_1.svg",
+    "source": "GenISys_Preprint/unused_figures/fig_1.svg",
+    "origin": "publication_figure",
+    "source_sha256": "7f66090908c27c75a84c38713b7a26bb0b8dddc3756f58e6ce54bcfbb655fa65",
+    "copied_sha256": "7f66090908c27c75a84c38713b7a26bb0b8dddc3756f58e6ce54bcfbb655fa65",
+    "bytes": 130206,
+    "change": "unchanged"
+  },
+  {
+    "destination": "figures/fig_2.png",
+    "source": "GenISys_Preprint/unused_figures/fig_2.png",
+    "origin": "publication_figure",
+    "source_sha256": "9b8677fde933d8a0d6511ad8e31433d9738959ddc364d6e42ea7b45a0beebf47",
+    "copied_sha256": "9b8677fde933d8a0d6511ad8e31433d9738959ddc364d6e42ea7b45a0beebf47",
+    "bytes": 471910,
+    "change": "unchanged"
+  },
+  {
+    "destination": "figures/fig_2.svg",
+    "source": "GenISys_Preprint/unused_figures/fig_2.svg",
+    "origin": "publication_figure",
+    "source_sha256": "15794f7a96f3c120ab69d34b03ee8bd586d0dcb888342fa2a3e2addc96cca275",
+    "copied_sha256": "15794f7a96f3c120ab69d34b03ee8bd586d0dcb888342fa2a3e2addc96cca275",
+    "bytes": 76477,
+    "change": "unchanged"
   }
 ]
