@@ -1,20 +1,20 @@
-# Gen-I-Sys: Integrated Ship Systems Design Using Subsystem-Conditional Tabular Diffusion
+# GenISys: Integrated Ship Systems Design Using Subsystem-Conditional Tabular Diffusion
 
 **[Code on GitHub](https://github.com/noahbagz/GenISys) · [Dataset on Hugging Face](https://huggingface.co/datasets/DeCoDELab/GenISys)**
 
 Ship design coordinates strongly coupled subsystems under engineering constraints
-and competing performance objectives. **Gen-I-Sys** is a framework for learning
+and competing performance objectives. **GenISys** is a framework for learning
 these relationships and generating integrated preliminary bulkcarrier designs.
 It connects parametric geometry, structural CAD, ship-system simulation, and
 guided diffusion in a common design representation.
 
-![Gen-I-Sys overview: design space, dataset construction, subsystem diffusion, and guided generation](figures/fig_1.png)
+![GenISys overview: design space, dataset construction, subsystem diffusion, and guided generation](figures/fig_1.png)
 
 *Project overview from the companion paper: 189 design parameters, 133 independent
 controls, and 20 subsystem blocks linked by a shared engineering evaluator.*
 
 The framework evaluates hull geometry, structure, capacities, loading equilibrium,
-and hydrodynamic-method limits against 187 screening constraints. Five performance
+and hydrodynamic-method limits against 187 rule-based engineering constraints. Five performance
 objectives describe acquisition cost, annual cost, required freight rate (RFR),
 steel weight, and resistance. RFR represents the modeled break-even freight charge
 per tonne transported, including annualized capital costs.
@@ -34,10 +34,11 @@ diffusion probabilistic models:
 
 *HCDDPM completes each subsystem chain in order. SCDDPM assembles subsystem
 proposals into a shared state before the next reverse step. Dashed paths denote
-optional constraint guidance.*
+optional feasibility guidance.*
 
-Constraint classifiers steer generation toward feasibility, while learned
-performance critics guide designs toward lower RFR. Locked coordinates preserve
+Feasibility classifiers guide generation toward satisfying the engineering
+constraints, while an RFR regression model provides performance guidance toward
+lower cost per tonne transported. Locked coordinates preserve
 requirements such as voyage range during sampling. The broader paper also examines
 localized subsystem redesign with other design decisions held fixed.
 
@@ -65,8 +66,8 @@ the studied requirements and settings.
 ## Using this repository
 
 `run_genisys.py` provides the reusable build, train, and sample workflow for all
-three architectures, with guidance off, constraint guidance, or constraint plus
-RFR guidance. Supporting code includes dataset construction and repair, the ship
+three architectures, with guidance off, feasibility guidance, or feasibility plus
+performance guidance. Supporting code includes dataset construction and repair, the ship
 evaluator, diversity metrics, and CadQuery structure and system visualization.
 
 See the [usage guide](docs/USAGE.md) for environment setup and commands, the
@@ -75,8 +76,25 @@ See the [usage guide](docs/USAGE.md) for environment setup and commands, the
 [Hugging Face](https://huggingface.co/datasets/DeCoDELab/GenISys).
 
 This is preliminary-design research software. Feasibility refers to the implemented
-engineering screens. Source provenance and the current execution-validation limits
+engineering constraints. Source provenance and the current execution-validation limits
 are documented in [SOURCE_PROVENANCE.md](docs/SOURCE_PROVENANCE.md).
 
 **Companion paper:** Noah J. Bagazinski and Faez Ahmed,
-*Gen-I-Sys: Integrated Ship Systems Design Using Subsystem-Conditional Tabular Diffusion*.
+*GenISys: Integrated Ship Systems Design Using Subsystem-Conditional Tabular Diffusion*.
+
+## Manuscript evaluation and figures
+
+The manuscript's analysis, statistics, figure-generation, source checks, and
+supporting evaluation code are collected in [eval_utils](eval_utils/README.md).
+Four task scripts cover data evaluation, table generation, figure generation,
+and verification. Necessary implementations are stored once in `_shared/`;
+the source/function maps distinguish these helpers from original experiment
+versions retained in the research workspace. The collection uses an explicit
+workspace data path and does not duplicate experiment data or trained models.
+
+The [figure guide](figures/README.md) identifies the current manuscript graphics
+and their generation tasks. The `arxiv` task in `eval_utils/verify_results.py`
+builds the separate arXiv formatting copy from the research workspace manuscript,
+checks content preservation, and packages its sources. See the
+[publication update record](docs/PUBLICATION_UPDATE_20261108.md) for the files
+synchronized on 8 November 2026.
